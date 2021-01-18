@@ -56,6 +56,8 @@ class FileParser(object):
         list_item = None
         if line[:2] == '# ':
             self.title = line.lstrip('# ')
+        elif line[:2] == '! ':
+            self.name = line.lstrip('! ')
         elif line == '---':
             list_item = '-1'
         elif line[:2] == '##':
