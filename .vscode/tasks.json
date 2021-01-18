@@ -6,7 +6,10 @@
         {
             "label": "Combine",
             "type": "shell",
-            "group": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true,
+            },
             "command": "python -m reamenu",
             "problemMatcher": []
         }
