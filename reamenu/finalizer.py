@@ -1,4 +1,3 @@
-import os
 import pathlib
 
 from reamenu.file_parser import FileParser
