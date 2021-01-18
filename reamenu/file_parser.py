@@ -5,11 +5,6 @@ import re
 spaces_re = re.compile(r'(^ +)')
 
 
-class LineParser(object):
-    def __init__(self):
-        pass
-
-
 class FileParser(object):
     def __init__(self, filepath):
         self.path = pathlib.Path(filepath)
