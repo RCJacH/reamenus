@@ -1,0 +1,289 @@
+> &Insert
+    40001 &Track
+    41584 &Surround track
+    41067 &Multiple tracks...
+    40701 &Virtual instrument tracks...
+    _S&M_SENDS4 &Cue buss...
+> &Templates
+    46000 &Open template...
+    40392 &Save tracks as track template...
+    _S&M_SHOW_RESVIEW_TR_TEMPLATES &Track templates...
+    ---
+    46001 &(track template list)
+---
+## EDITING
+> &Select
+    _SWS_SELARMEDTRACKS &Select armed tracks
+    _SWS_SELMUTEDTRACKS &Select muted tracks
+    _SWS_SELUNMUTEDTRACKS &Select unmuted tracks
+    _SWS_SELSOLOEDTRACKS &Select soloed tracks
+    41324 &Select locked tracks
+    _SWS_SELPHASETRACKS &Select phase-inverted tracks
+    ---
+    _SWS_SELALLPARENTS &Select all folders
+    _SWS_SELNOTFOLDER &Select all non-folders
+    ---
+    _SWS_SELPARENTS2 &Select parents of selected folders
+    _SWS_SELCHILDREN2 &Select children of selected folders
+    ---
+    _SWS_SELROUTED &Select tracks routing to selected tracks
+    _XENAKIOS_SELTRAXNOITEMS &Select tracks with no items
+    ---
+    40296 &Select all tracks
+    40297 &Unselect all tracks
+    ---
+    _SWS_TOGTRACKSEL &Invert track selection
+    ---
+    _SWS_SAVESEL &Save track selection
+    _SWS_RESTORESEL &Load track selection
+> &Clipboard
+    40210 &Copy tracks
+    _S&M_COPYSNDRCV1 &Copy tracks (with routing)
+    ---
+    40337 &Cut tracks
+    _S&M_CUTSNDRCV1 &Cut tracks (with routing)
+    ---
+    40058 &Paste tracks
+    _S&M_PASTSNDRCV1 &Paste tracks (with routing)
+    _XENAKIOS_REPEATPASTE &Repeat paste...
+    ---
+    40062 &Duplicate tracks
+    41997 &Move tracks to subproject
+    ---
+    40005 &Delete tracks
+> &Freeze
+    40901 &Freeze to mono
+    41223 &Freeze to stereo
+    40877 &Freeze to multichannel
+    41644 &Unfreeze
+    ---
+    41654 &Show track freeze details
+> &Render
+    40789 &Render to mono stem tracks
+    40537 &Render to mono stem tracks (post-fader)
+    41721 &Render selected area to mono stem tracks
+    41718 &Render selected area to mono stem tracks (post-fader)
+    ---
+    40788 &Render to stereo stem tracks
+    40405 &Render to stereo stem tracks (post-fader)
+    41719 &Render selected area to stereo stem tracks
+    41716 &Render selected area to stereo stem tracks (post-fader)
+    ---
+    40893 &Render to multichannel stem tracks
+    40892 &Render to multichannel stem tracks (post-fader)
+    41720 &Render selected area to multichannel stem tracks
+    41717 &Render selected area to multichannel stem tracks (post-fader)
+    ---
+    _XENAKIOS_RENDERRECEIVESASSTEMS &Render receives as stems tracks
+---
+## CONTROLS
+> &Pan
+    _XENAKIOS_SYMMETRICAL_CHANPANSRTOL &Pan selected tracks right to left
+    _XENAKIOS_SYMMETRICAL_CHANPANSLTOR &Pan selected tracks left to right
+    ---
+    _XENAKIOS_PANTRACKSRANDOM &Pan selected tracks randomly
+> &Mute
+    _SWS_TOGMUTECHILDRN &Mute children of selected tracks
+    _SWS_TOGMUTERECVS &Mute receives for selected tracks
+    ---
+    _SWS_TOGITEMMUTE &Mute items on selected tracks
+    ---
+    _SWS_SAVEMUTES &Save selected track mutes (inc. receives)
+    _SWS_RESTRMUTES &Load selected track mutes (inc. receives)
+> &FX
+    _S&M_COPYFXCHAIN5 &Copy FX chain
+    _S&M_COPYFXCHAIN6 &Cut FX chain
+    _S&M_COPYFXCHAIN10 &Paste FX chain
+    _S&M_COPYFXCHAIN7 &Replace FX chain
+    _S&M_CLRFXCHAIN3 &Delete FX chain
+    ---
+    _S&M_COPY_INFXCHAIN &Copy input FX chain
+    _S&M_CUT_INFXCHAIN &Cut input FX chain
+    _S&M_PASTE_INFXCHAIN &Paste input FX chain
+    _S&M_PASTE_REPLACE_INFXCHAIN &Replace input FX chain
+    _S&M_CLR_INFXCHAIN &Delete input FX chain
+    ---
+    41757 &Insert/show track EQ
+    40907 &Insert/show MIDI controls
+    ---
+    _S&M_FXBYPALL &Bypass all FX on selected tracks
+    _S&M_FXOFFALL &Offline all FX on selected tracks
+    ---
+    _S&M_WNCLS4 &Close all FX chain windows
+    _S&M_WNCLS3 &Close all floating FX windows
+    ---
+    40271 &FX Browser...
+    _S&M_SHOWFXCHAINSLOTS &FX chains...
+> &FX parameters
+    41142 &Track envelope for last touched FX parameter
+    41141 &Track control for last touched FX parameter
+    ---
+    41145 &Set alias for last touched FX parameter
+    ---
+    41144 &MIDI learn for last touched FX parameter...
+    41143 &Parameter modulation for last touched FX parameter...
+> &Routing
+    _S&M_COPYSNDRCV2 &Copy selected tracks routings
+    _S&M_CUTSNDRCV2 &Cut selected tracks routings
+    _S&M_PASTSNDRCV2 &Paste routings to selected tracks
+    _S&M_SENDS7 &Delete selected tracks routings
+    ---
+    _S&M_WNCLS1 &Close all routing windows
+    ---
+    _SWS_AWCSCINP &Cascade selected track inputs
+    40251 &Routing Matrix...
+> &Envelopes
+    41975 &Track envelopes...
+    ---
+    40406 &Show volume envelope for selected tracks
+    40407 &Show pan envelope for selected tracks
+    ---
+    41151 &Show all envelopes for selected tracks
+    40890 &Show all active envelopes for selected tracks
+    ---
+    41152 &Show all envelopes for all tracks
+    40926 &Show all active envelopes for all tracks
+    ---
+    _S&M_TGLARMALLENVS &Arm all active envelopes for selected tracks
+    _S&M_TGLARMPLUGENV &Arm all plugin envelopes for selected tracks
+    ---
+    40891 &Show separate lanes for all visible envelopes on selected tracks
+    ---
+## DISPLAY
+> &Labels
+    _XENAKIOS_RENAMETRAXDLG &Rename selected tracks...
+    _SWS_NAMETKLIKEITEM &Rename selected tracks by first selected item
+    ---
+    _XENAKIOS_TRAXDEFAULTLABEL &Insert default track label
+    _SWSCONSOLEPREFIX &Insert prefix to track labels
+    _SWSCONSOLESUFFIX &Insert suffix to track labels
+> &Icon
+    40899 &Set track icon...
+    40900 &Delete track icon
+    ---
+    _SWSAUTOCOLOR_OPEN &Auto Color/Icon...
+> &Color
+    _SWS_TRACKORDCOL &Set to ordered custom colors
+    _SWS_TRACKGRAD &Set to color gradient
+    ---
+    40359 &Set to default color
+    40357 &Set to custom color...
+    ---
+    _SWS_TRACKCUSTCOL1 &Set to custom color 1
+    _SWS_TRACKCUSTCOL2 &Set to custom color 2
+    _SWS_TRACKCUSTCOL3 &Set to custom color 3
+    _SWS_TRACKCUSTCOL4 &Set to custom color 4
+    _SWS_TRACKCUSTCOL5 &Set to custom color 5
+    _SWS_TRACKCUSTCOL6 &Set to custom color 6
+    _SWS_TRACKCUSTCOL7 &Set to custom color 7
+    _SWS_TRACKCUSTCOL8 &Set to custom color 8
+    _SWS_TRACKCUSTCOL9 &Set to custom color 9
+    _SWS_TRACKCUSTCOL10 &Set to custom color 10
+    _SWS_TRACKCUSTCOL11 &Set to custom color 11
+    _SWS_TRACKCUSTCOL12 &Set to custom color 12
+    _SWS_TRACKCUSTCOL13 &Set to custom color 13
+    _SWS_TRACKCUSTCOL14 &Set to custom color 14
+    _SWS_TRACKCUSTCOL15 &Set to custom color 15
+    _SWS_TRACKCUSTCOL16 &Set to custom color 16
+    ---
+    _SWS_WHITETRACK &Set to white
+    _SWS_BLACKTRACK &Set to black
+    ---
+    40360 &Set to one random color
+    40358 &Set to random colors
+    ---
+    _SWS_COLCHILDREN &Set children to same color
+    ---
+    _SWSAUTOCOLOR_OPEN &Auto Color/Icon...
+> &Height
+    _SWS_MINTRACKS &Minimize selected tracks
+    40723 &Expand selected tracks (minimize others)
+    ---
+    40110 &Minimize all tracks
+    40113 &Maximize all tracks
+    ---
+    _XENAKIOS_STORETRACKHEIGHTS &Save selected tracks heights
+    _XENAKIOS_LoadTRACKHEIGHTS &Load selected tracks heights
+> &Visibility
+    41050 &Master track in track view
+    41209 &Master track in mixer
+    ---
+    _SWSTL_HIDE &Hide selected tracks
+    _SWSTL_HIDETCP &Hide selected tracks in track view
+    _SWSTL_HIDEMCP &Hide selected tracks in mixer
+    ---
+    _SWSTL_HIDEUNSEL &Hide unselected tracks
+    ---
+    _SWSTL_SHOWALL &Show all tracks
+    _SWSTL_SHOWALLMCP &Show all tracks in track view
+    _SWSTL_SHOWALLTCP &Show all tracks in mixer
+    ---
+    _SWSTL_OPENFILT &Track list...
+    40422 &Screensets...
+    40906 &Filter track visibility...
+---
+## TRACKS
+41314 &Lock selected tracks
+40641 &Free item positioning
+> &Properties
+    40645 &Auto-reposition items
+    _XENAKIOS_SHOW_COMMANDPARAMS &Command parameters...
+    > &Meter
+        41744 &Show track meter
+        41726 &Show full multichannel meter
+    > &Pan mode
+        _SWS_AWPANSTEREOPAN &Stereo pan
+        _SWS_AWPANBALANCENEW &Stereo balance
+        _SWS_AWPANDUALPAN &Dual pan
+        _SWS_AWPANBALANCEOLD &3.x balance
+    > &Timebase
+        40486 &Default (project)
+        40488 &Beats (position, length, rate)
+        40489 &Beats (position only)
+        40487 &Time
+    > &Record path
+        41321 &Primary
+        41322 &Secondary
+        41323 &Both
+    > &MIDI controls
+        41555 &Link track controls to MIDI controls on all channels
+        ---
+        41539 &Link track controls to MIDI controls on channel 01
+        41540 &Link track controls to MIDI controls on channel 02
+        41541 &Link track controls to MIDI controls on channel 03
+        41542 &Link track controls to MIDI controls on channel 04
+        41543 &Link track controls to MIDI controls on channel 05
+        41544 &Link track controls to MIDI controls on channel 06
+        41545 &Link track controls to MIDI controls on channel 07
+        41546 &Link track controls to MIDI controls on channel 08
+        41547 &Link track controls to MIDI controls on channel 09
+        41548 &Link track controls to MIDI controls on channel 10
+        41549 &Link track controls to MIDI controls on channel 11
+        41550 &Link track controls to MIDI controls on channel 12
+        41551 &Link track controls to MIDI controls on channel 13
+        41552 &Link track controls to MIDI controls on channel 14
+        41553 &Link track controls to MIDI controls on channel 15
+        41554 &Link track controls to MIDI controls on channel 16
+        ---
+        41538 &Do not link track controls to MIDI controls
+        ---
+        41557 &Send track volume as 2-byte MIDI message
+        41558 &Send track pan as 2-byte MIDI message
+    > &Performance
+        40607 &Allow media buffering for selected tracks
+        40608 &Prevent media buffering for selected tracks
+        ---
+        40609 &Allow anticipative FX for selected tracks
+        40610 &Prevent anticipative FX for selected tracks
+> &Layout
+    48400 &Default
+    ---
+> &Grouping
+    40772 &Grouping parameters for selected tracks...
+    ---
+    _S&M_COPY_TR_GRP &Copy selected tracks grouping
+    _S&M_CUT_TR_GRP &Cut selected tracks grouping
+    _S&M_PASTE_TR_GRP &Paste grouping to selected tracks
+    ---
+    40771 &Toggle track grouping
+    40768 &Grouping Matrix...
