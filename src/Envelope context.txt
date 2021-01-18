@@ -1,0 +1,129 @@
+40854 &Select envelope (env name)
+40055 &Create new point
+---
+## EDITING
+> &Insert
+    40915 &Insert new point at current position
+    40726 &Insert 4 envelope points at time selection
+    _XENAKIOS_CLIPBOARD_TEST1 &Insert random points on selected envelope...
+    ---
+    41126 &Insert new point to all visible track envelopes
+> &Select
+    40332 &Select all points
+    40330 &Select all points in time selection
+    ---
+    _BR_ENV_SEL_PEAKS &Select peaks
+    _BR_ENV_SEL_PEAKS_ADD &Add peaks to selection
+    ---
+    _BR_ENV_SEL_DIPS &Select dips
+    _BR_ENV_SEL_DIPS_ADD &Add dips to selection
+    ---
+    40331 &Unselect all points
+    _BR_ENV_UNSEL_IN_TIME_SEL &Unselect all points in time selection
+    _BR_ENV_UNSEL_OUT_TIME_SEL &Unselect all points outside time selection
+    ---
+    40334 &Invert point selection
+> &Clipboard
+    40335 &Copy
+    40324 &Copy (ignoring time selection)
+    ---
+    40336 &Cut
+    40059 &Cut (ignoring time selection)
+    ---
+    40058 &Paste
+    _XENAKIOS_REPEATPASTE &Repeat paste...
+> &Delete
+    40054 &Delete envelope point
+    40333 &Delete selected envelope points
+    40089 &Delete envelope points in time selection
+---
+> &Move
+    _FNG_ENVUP &Move selected points up
+    _FNG_ENVDOWN &Move selected points down
+    ---
+    41178 &Move selected points left by grid
+    _FNG_ENVLEFT_16 &Move selected points left by 16th note
+    _FNG_ENVLEFT_32 &Move selected points left by 32nd note
+    ---
+    41179 &Move selected points right by grid
+    _FNG_ENVRIGHT_16 &Move selected points right by 16th note
+    _FNG_ENVRIGHT_32 &Move selected points right by 32nd note
+> &Scale
+    _FNG_ENV_EXP_MID &Expand amplitude of selected points
+    _FNG_ENV_COMPR_MID &Compress amplitude of selected points
+    ---
+    _FNG_ENV_TIME_STRETCH &Expand duration of selected points
+    _FNG_ENV_TIME_COMP &Compress duration of selected points
+> &Skew
+    _FNG_ENV_LINEARADD_REV &Skew selected points up on left
+    _FNG_ENV_LINEARADD &Skew selected points up on right
+    ---
+    _FNG_ENV_LINEARSUB_REV &Skew selected points down on left
+    _FNG_ENV_LINEARSUB &Skew selected points down on right
+> &Transform
+    40415 &Reset selected points
+    40887 &Reduce number of points...
+    ---
+    _PADRE_ENVLFO &LFO generator...
+    _PADRE_ENVPROC &Envelope processor...
+---
+## CURVE
+> &Slope shape (current point)
+    40191 &Linear
+    40192 &Square
+    40423 &Slow start/end
+    40426 &Fast start
+    40427 &Fast end
+    40682 &Bezier
+> &Slope shape (selected points)
+    40189 &Linear
+    40190 &Square
+    40424 &Slow start/end
+    40428 &Fast start
+    40429 &Fast end
+    40683 &Bezier
+> &Bezier tension (selected points)
+    41124 &Increase by 25%
+    41122 &Increase by 5%
+    ---
+    41123 &Decrease by 5%
+    41125 &Decrease by 25%
+---
+## ENVELOPE
+> &Controls
+    40884 &Hide envelope
+    40065 &Clear envelope
+    ---
+    40883 &Toggle bypass
+    40863 &Toggle record arm
+    40851 &Toggle separate lane
+> &Slope shape (default)
+    40187 &Linear
+    40188 &Square
+    40425 &Slow start/end
+    40430 &Fast start
+    40431 &Fast end
+    40681 &Bezier
+> &Automation mode (track)
+    40400 &Trim/read mode (faders trim envelopes)
+    40401 &Read mode (envelopes play faders)
+    40402 &Touch mode (record fader movements)
+    40404 &Latch mode (record fader after first movement)
+    42023 &Latch Preview mode (adjust parameters but do not apply to envelopes)
+    40403 &Write mode (record fader positions to envelopes)
+> &Automation mode (global)
+    40876 &Default (per track)
+    40878 &Trim/read mode (faders trim envelopes)
+    40879 &Read mode (envelopes play faders)
+    40880 &Touch mode (record fader movements)
+    40881 &Latch mode (record fader after first movement)
+    42022 &Latch Preview mode (adjust parameters but do not apply to envelopes)
+    40882 &Write mode (record fader positions to envelopes)
+    ---
+    40908 &Bypass all automation
+---
+> &Locking
+    1135 &Toggle locking
+    40277 &Locking settings...
+    ---
+    40585 &Lock envelopes
