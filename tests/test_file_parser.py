@@ -26,13 +26,13 @@ def test_parse_title():
 @pytest.mark.parametrize(
     'line, list_item',
     [
-        ('## HEADER', ('-4 HEADER',)),
-        ('##### HEADER', ('-4 HEADER',)),
-        ('  ## HEADER', ('-4 HEADER',)),
-        ('    ###### HEADER', ('-4 HEADER',)),
-        ('---', ('-1',)),
-        ('  ---', ('-1',)),
-        ('    ---', ('-1',)),
+        ('## HEADER', '-4 HEADER'),
+        ('##### HEADER', '-4 HEADER'),
+        ('  ## HEADER', '-4 HEADER'),
+        ('    ###### HEADER', '-4 HEADER'),
+        ('---', '-1'),
+        ('  ---', '-1'),
+        ('    ---', '-1'),
     ],
 )
 def test_parse_line(line, list_item):
@@ -55,10 +55,7 @@ def test_parse_line(line, list_item):
 def test_parse_subtitles(lines, list_items):
     parser = FileParser('')
     parser.current_submenu_level = 0
-    menu_items = []
-    for each_line in lines:
-        menu_items += parser.parse_line(each_line)
-    assert menu_items == list_items
+    assert parser.parse(lines) == list_items
 
 
 def test_parse_file():
@@ -76,5 +73,7 @@ def test_parse_file():
         'item_8=-1',
         'item_9=sub sub item2',
         'item_10=-3',
+        'item_11=-3',
+        'item_12=item',
         'title=Title',
     ]
