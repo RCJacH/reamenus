@@ -29,7 +29,7 @@ class FileParser(object):
                 self.menu_items.append('-3')
                 self.current_submenu_level = 0
         final_list = [f'item_{i}={v}' for i, v in enumerate(self.menu_items)]
-        return (f'[{self.name}]',) + final_list + (f'title={self.title}',)
+        return [f'[{self.name}]'] + final_list + [f'title={self.title}']
 
     def parse_line(self, line):
         submenu_level = spaces_re.match(line)
