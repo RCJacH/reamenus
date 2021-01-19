@@ -55,7 +55,7 @@ def test_parse_line(line, list_item):
 def test_parse_subtitles(lines, list_items):
     parser = FileParser('')
     parser.current_submenu_level = 0
-    assert parser.parse(lines) == list_items
+    assert parser.parse_lines(lines) == list_items
 
 
 def test_parse_file():

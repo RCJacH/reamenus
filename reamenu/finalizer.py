@@ -8,7 +8,11 @@ class Finalizer(object):
         self.folder = pathlib.Path(folderpath)
         self.src_folder = self.folder.parent / 'src'
         self.release_path = self.folder.parent / 'release' / 'reaper-menu.ini'
-        self.all_files = [x for x in self.get_all_files() if x.lang == lang]
+        self.all_files = [
+            x for x in self.get_all_files() if (
+                x.lang == lang and not x.is_mixin
+            )
+        ]
 
     def __call__(self):
         with open(self.release_path, 'w', encoding='utf-8') as release_file:
