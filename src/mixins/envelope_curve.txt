@@ -1,0 +1,21 @@
+## CURVE
+> &Slope shape (current point)
+    40191 &Linear
+    40192 &Square
+    40423 &Slow start/end
+    40426 &Fast start
+    40427 &Fast end
+    40682 &Bezier
+> &Slope shape (selected points)
+    40189 &Linear
+    40190 &Square
+    40424 &Slow start/end
+    40428 &Fast start
+    40429 &Fast end
+    40683 &Bezier
+> &Bezier tension (selected points)
+    41124 &Increase by 25%
+    41122 &Increase by 5%
+    ---
+    41123 &Decrease by 5%
+    41125 &Decrease by 25%

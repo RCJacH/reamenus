@@ -1,0 +1,24 @@
+# &Actions
+## ACTIONS
+40605 &Action list...
+_S&M_CYCLEDITOR &Cycle action editor...
+> &Marker actions
+    _SWSMA_TOGGLE &Enable marker actions
+    ---
+    _SWSMA_IGNORE &Ignore next marker action
+    _SWSMA_RUNEDIT &Run action marker under cursor
+> &Startup action
+    _S&M_SET_PRJ_ACTION &Set project startup action
+    _S&M_CLR_PRJ_ACTION &Clear project startup action
+---
+2999 &Repeat most recent action
+3000 &Repeat second-most recent action
+---
+## REASCRIPTS
+41935 &New script...
+41060 &Run script...
+41928 &Edit script...
+41898 &Close all scripts
+---
+## RECENT ACTIONS
+2998 &Show recent actions

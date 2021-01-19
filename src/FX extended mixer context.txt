@@ -1,0 +1,25 @@
+## FX
+40550 &Bypass FX
+40551 &Offline FX
+40552 &Delete FX
+40562 &Rename FX
+---
+40556 &Add FX...
+41068 &Quick FX
+---
+41073 &Add FX chain
+40553 &FX chain...
+_S&M_SHOWFXCHAINSLOTS &FX chains list...
+---
+> &Selected tracks
+    _S&M_COPYFXCHAIN5 &Copy FX chain from selected track
+    _S&M_COPYFXCHAIN6 &Cut FX chain from selected track
+    _S&M_COPYFXCHAIN7 &Paste FX chain to selected tracks
+    ---
+    _S&M_FXBYPALL2 &Bypass FX chains on selected tracks
+    _S&M_FXOFFALL &Offline FX chains on selected tracks
+    ---
+    _S&M_CLRFXCHAIN3 &Remove FX chains from selected tracks
+    ---
+    _S&M_WNCLS4 &Close all FX chain windows
+    _S&M_WNCLS3 &Close all floating FX windows

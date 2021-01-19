@@ -1,0 +1,23 @@
+## HISTORY
+40029 &Undo
+40030 &Redo
+40072 &Undo history...
+---
+## EDITING
+41383 &Copy
+40057 &Copy (ignoring time selection)
+40014 &Copy loop of selected area of items
+---
+41384 &Cut
+40059 &Cut (ignoring time selection)
+---
+40058 &Paste
+_XENAKIOS_REPEATPASTE &Repeat paste...
+---
+40508 &Trim items to time selection
+40184 &Delete items/tracks/points
+---
+40035 &Select all
+_SWS_UNSELALL &Unselect all
+---
+_S&M_SHOWFIND &Find...

@@ -23,15 +23,7 @@
     _BR_ENV_UNSEL_OUT_TIME_SEL &Unselect all points outside time selection
     ---
     40334 &Invert point selection
-> &Clipboard
-    40335 &Copy
-    40324 &Copy (ignoring time selection)
-    ---
-    40336 &Cut
-    40059 &Cut (ignoring time selection)
-    ---
-    40058 &Paste
-    _XENAKIOS_REPEATPASTE &Repeat paste...
+@import envelope_clipboard
 > &Delete
     40054 &Delete envelope point
     40333 &Delete selected envelope points
@@ -67,63 +59,8 @@
     _PADRE_ENVLFO &LFO generator...
     _PADRE_ENVPROC &Envelope processor...
 ---
-## CURVE
-> &Slope shape (current point)
-    40191 &Linear
-    40192 &Square
-    40423 &Slow start/end
-    40426 &Fast start
-    40427 &Fast end
-    40682 &Bezier
-> &Slope shape (selected points)
-    40189 &Linear
-    40190 &Square
-    40424 &Slow start/end
-    40428 &Fast start
-    40429 &Fast end
-    40683 &Bezier
-> &Bezier tension (selected points)
-    41124 &Increase by 25%
-    41122 &Increase by 5%
-    ---
-    41123 &Decrease by 5%
-    41125 &Decrease by 25%
+@import envelope_curve
 ---
-## ENVELOPE
-> &Controls
-    40884 &Hide envelope
-    40065 &Clear envelope
-    ---
-    40883 &Toggle bypass
-    40863 &Toggle record arm
-    40851 &Toggle separate lane
-> &Slope shape (default)
-    40187 &Linear
-    40188 &Square
-    40425 &Slow start/end
-    40430 &Fast start
-    40431 &Fast end
-    40681 &Bezier
-> &Automation mode (track)
-    40400 &Trim/read mode (faders trim envelopes)
-    40401 &Read mode (envelopes play faders)
-    40402 &Touch mode (record fader movements)
-    40404 &Latch mode (record fader after first movement)
-    42023 &Latch Preview mode (adjust parameters but do not apply to envelopes)
-    40403 &Write mode (record fader positions to envelopes)
-> &Automation mode (global)
-    40876 &Default (per track)
-    40878 &Trim/read mode (faders trim envelopes)
-    40879 &Read mode (envelopes play faders)
-    40880 &Touch mode (record fader movements)
-    40881 &Latch mode (record fader after first movement)
-    42022 &Latch Preview mode (adjust parameters but do not apply to envelopes)
-    40882 &Write mode (record fader positions to envelopes)
-    ---
-    40908 &Bypass all automation
+@import envelope
 ---
-> &Locking
-    1135 &Toggle locking
-    40277 &Locking settings...
-    ---
-    40585 &Lock envelopes
+@import envelope_locking

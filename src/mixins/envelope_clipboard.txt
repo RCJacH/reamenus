@@ -1,0 +1,9 @@
+> &Clipboard
+    40335 &Copy
+    40324 &Copy (ignoring time selection)
+    ---
+    40336 &Cut
+    40059 &Cut (ignoring time selection)
+    ---
+    40058 &Paste
+    _XENAKIOS_REPEATPASTE &Repeat paste...

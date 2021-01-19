@@ -1,0 +1,467 @@
+# &Memory
+## SCREENSETS
+40422 &Screensets...
+> &Window sets
+    40454 &Load window set #01
+    40455 &Load window set #02
+    40456 &Load window set #03
+    40457 &Load window set #04
+    40458 &Load window set #05
+    40459 &Load window set #06
+    40460 &Load window set #07
+    40461 &Load window set #08
+    40462 &Load window set #09
+    40463 &Load window set #10
+    ---
+    40474 &Save window set #01
+    40475 &Save window set #02
+    40476 &Save window set #03
+    40477 &Save window set #04
+    40478 &Save window set #05
+    40479 &Save window set #06
+    40480 &Save window set #07
+    40481 &Save window set #08
+    40482 &Save window set #09
+    40483 &Save window set #10
+> &Track views
+    40444 &Load track view #01
+    40445 &Load track view #02
+    40446 &Load track view #03
+    40447 &Load track view #04
+    40448 &Load track view #05
+    40449 &Load track view #06
+    40450 &Load track view #07
+    40451 &Load track view #08
+    40452 &Load track view #09
+    40453 &Load track view #10
+    ---
+    40464 &Save track view #01
+    40465 &Save track view #02
+    40466 &Save track view #03
+    40467 &Save track view #04
+    40468 &Save track view #05
+    40469 &Save track view #06
+    40470 &Save track view #07
+    40471 &Save track view #08
+    40472 &Save track view #09
+    40473 &Save track view #10
+> &Item selection sets
+    41239 &Load selection set #01
+    41240 &Load selection set #02
+    41241 &Load selection set #03
+    41242 &Load selection set #04
+    41243 &Load selection set #05
+    41244 &Load selection set #06
+    41245 &Load selection set #07
+    41246 &Load selection set #08
+    41247 &Load selection set #09
+    41248 &Load selection set #10
+    ---
+    41229 &Save selection set #01
+    41230 &Save selection set #02
+    41231 &Save selection set #03
+    41232 &Save selection set #04
+    41233 &Save selection set #05
+    41234 &Save selection set #06
+    41235 &Save selection set #07
+    41236 &Save selection set #08
+    41237 &Save selection set #09
+    41238 &Save selection set #10
+---
+## SNAPSHOTS
+_SWSSNAPSHOT_OPEN &Snapshots...
+> &Load/Save
+    _SWSSNAPSHOT_GET &Reload current
+    ---
+    _SWSSNAPSHOT_GET1 &Load snapshot #01
+    _SWSSNAPSHOT_GET2 &Load snapshot #02
+    _SWSSNAPSHOT_GET3 &Load snapshot #03
+    _SWSSNAPSHOT_GET4 &Load snapshot #04
+    _SWSSNAPSHOT_GET5 &Load snapshot #05
+    _SWSSNAPSHOT_GET6 &Load snapshot #06
+    _SWSSNAPSHOT_GET7 &Load snapshot #07
+    _SWSSNAPSHOT_GET8 &Load snapshot #08
+    _SWSSNAPSHOT_GET9 &Load snapshot #09
+    _SWSSNAPSHOT_GET10 &Load snapshot #10
+    ---
+    _SWSSNAPSHOT_SAVE &Save over current
+    ---
+    _SWSSNAPSHOT_SAVE1 &Save snapshot #01
+    _SWSSNAPSHOT_SAVE2 &Save snapshot #02
+    _SWSSNAPSHOT_SAVE3 &Save snapshot #03
+    _SWSSNAPSHOT_SAVE4 &Save snapshot #04
+    _SWSSNAPSHOT_SAVE5 &Save snapshot #05
+    _SWSSNAPSHOT_SAVE6 &Save snapshot #06
+    _SWSSNAPSHOT_SAVE7 &Save snapshot #07
+    _SWSSNAPSHOT_SAVE8 &Save snapshot #08
+    _SWSSNAPSHOT_SAVE9 &Save snapshot #09
+    _SWSSNAPSHOT_SAVE10 &Save snapshot #10
+> &Clipboard
+    _SWSSNAPSHOT_NEWEDIT &New snapshot...
+    _SWSSNAPSHOT_NEWALL &New snapshot (all tracks)
+    _SWSSNAPSHOT_NEWSEL &New snapshot (selected tracks)
+    ---
+    _SWSSNAPSHOT_COPY &Copy current snapshot
+    _SWSSNAPSHOT_COPYALL &Copy new snapshot (all tracks)
+    _SWSSNAPSHOT_COPYSEL &Copy new snapshot (selected tracks)
+    _SWSSNAPSHOT_PASTE &Paste snapshot
+    ---
+    _SWSSNAPSHOT_SEL &Select current snapshot tracks
+    ---
+    _SWSSNAPSHOT_ADD &Add selected tracks to current snapshot
+    _SWSSNAPSHOTS_ADD &Add selected tracks to all snapshots
+    ---
+    _SWSSNAPSHOT_DEL &Delete selected tracks from current snapshot
+    _SWSSNAPSHOTS_DEL &Delete selected tracks from all snapshots
+> &Options
+    _SWSSNAPSHOT_MIXMODE &'full track mix' mode
+    _SWSSNAPSHOT_VISMODE &'current visibility' mode
+    ---
+    _SWSSNAPSHOT_VOL &Snapshot volume
+    _SWSSNAPSHOT_PAN &Snapshot pan
+    _SWSSNAPSHOT_SOLO &Snapshot solo
+    _SWSSNAPSHOT_MUTE &Snapshot mute
+    _SWSSNAPSHOT_FX &Snapshot FX
+    _SWSSNAPSHOT_SEND &Snapshot sends
+    _SWSSNAPSHOT_TOGSEL &Snapshot selection
+    _SWSSNAPSHOT_VIS &Snapshot visibility
+    ---
+    _SWSSNAPSHOT_SAVEFILT &Save current filter options
+    _SWSSNAPSHOT_RESTFILT &Load saved filter options
+    _SWSSNAPSHOT_CLEARFILT &Clear all filter options
+    ---
+    _SWSSNAPSHOT_APPLYLOAD &Apply filter to recall
+    ---
+    _SWSSNAPSHOT_SELONLY &Only save selected tracks
+    _SWSSNAPSHOT_SELONLYRECALL &Only recall selected tracks
+    _SWSSNAPSHOT_SHOWONLYSEL &Only show snapshots for selected tracks
+---
+## RESOURCES
+_S&M_SHOW_RESVIEW_TR_TEMPLATES &Track templates...
+> &Apply track template
+    _S&M_APPLY_TRTEMPLATE1 &Apply track template #01
+    _S&M_APPLY_TRTEMPLATE2 &Apply track template #02
+    _S&M_APPLY_TRTEMPLATE3 &Apply track template #03
+    _S&M_APPLY_TRTEMPLATE4 &Apply track template #04
+    _S&M_APPLY_TRTEMPLATE5 &Apply track template #05
+    _S&M_APPLY_TRTEMPLATE6 &Apply track template #06
+    _S&M_APPLY_TRTEMPLATE7 &Apply track template #07
+    _S&M_APPLY_TRTEMPLATE8 &Apply track template #08
+    _S&M_APPLY_TRTEMPLATE9 &Apply track template #09
+    _S&M_APPLY_TRTEMPLATE10 &Apply track template #10
+    ---
+    _S&M_APPLY_TRTEMPLATEp &Apply slot...
+> &Import track template
+    _S&M_ADD_TRTEMPLATE1 &Import track template #01
+    _S&M_ADD_TRTEMPLATE2 &Import track template #02
+    _S&M_ADD_TRTEMPLATE3 &Import track template #03
+    _S&M_ADD_TRTEMPLATE4 &Import track template #04
+    _S&M_ADD_TRTEMPLATE5 &Import track template #05
+    _S&M_ADD_TRTEMPLATE6 &Import track template #06
+    _S&M_ADD_TRTEMPLATE7 &Import track template #07
+    _S&M_ADD_TRTEMPLATE8 &Import track template #08
+    _S&M_ADD_TRTEMPLATE9 &Import track template #09
+    _S&M_ADD_TRTEMPLATE10 &Import track template #10
+    ---
+    _S&M_ADD_TRTEMPLATEp &Import slot...
+---
+_S&M_SHOWFXCHAINSLOTS &FX chains...
+> &Apply FX chain to tracks
+    _S&M_TRACKFXCHAIN1 &Apply FX chain #01
+    _S&M_TRACKFXCHAIN2 &Apply FX chain #02
+    _S&M_TRACKFXCHAIN3 &Apply FX chain #03
+    _S&M_TRACKFXCHAIN4 &Apply FX chain #04
+    _S&M_TRACKFXCHAIN5 &Apply FX chain #05
+    _S&M_TRACKFXCHAIN6 &Apply FX chain #06
+    _S&M_TRACKFXCHAIN7 &Apply FX chain #07
+    _S&M_TRACKFXCHAIN8 &Apply FX chain #08
+    ---
+    _S&M_TRACKFXCHAINp1 &Apply slot...
+> &Paste FX chain to tracks
+    _S&M_PASTE_TRACKFXCHAIN1 &Paste FX chain #01
+    _S&M_PASTE_TRACKFXCHAIN2 &Paste FX chain #02
+    _S&M_PASTE_TRACKFXCHAIN3 &Paste FX chain #03
+    _S&M_PASTE_TRACKFXCHAIN4 &Paste FX chain #04
+    _S&M_PASTE_TRACKFXCHAIN5 &Paste FX chain #05
+    _S&M_PASTE_TRACKFXCHAIN6 &Paste FX chain #06
+    _S&M_PASTE_TRACKFXCHAIN7 &Paste FX chain #07
+    _S&M_PASTE_TRACKFXCHAIN8 &Paste FX chain #08
+    ---
+    _S&M_PASTE_TRACKFXCHAINp1 &Paste slot...
+> &Apply FX chain to items
+    _S&M_TAKEFXCHAIN1 &Apply FX chain #01
+    _S&M_TAKEFXCHAIN2 &Apply FX chain #02
+    _S&M_TAKEFXCHAIN3 &Apply FX chain #03
+    _S&M_TAKEFXCHAIN4 &Apply FX chain #04
+    _S&M_TAKEFXCHAIN5 &Apply FX chain #05
+    _S&M_TAKEFXCHAIN6 &Apply FX chain #06
+    _S&M_TAKEFXCHAIN7 &Apply FX chain #07
+    _S&M_TAKEFXCHAIN8 &Apply FX chain #08
+    ---
+    _S&M_TAKEFXCHAINp1 &Apply slot...
+    _S&M_TAKEFXCHAINp2 &Apply to all takes, slot...
+> &Paste FX chain to items
+    _S&M_PASTE_TAKEFXCHAIN1 &Paste FX chain #01
+    _S&M_PASTE_TAKEFXCHAIN2 &Paste FX chain #02
+    _S&M_PASTE_TAKEFXCHAIN3 &Paste FX chain #03
+    _S&M_PASTE_TAKEFXCHAIN4 &Paste FX chain #04
+    _S&M_PASTE_TAKEFXCHAIN5 &Paste FX chain #05
+    _S&M_PASTE_TAKEFXCHAIN6 &Paste FX chain #06
+    _S&M_PASTE_TAKEFXCHAIN7 &Paste FX chain #07
+    _S&M_PASTE_TAKEFXCHAIN8 &Paste FX chain #08
+    ---
+    _S&M_PASTE_TAKEFXCHAINp1 &Paste slot...
+    _S&M_PASTE_TAKEFXCHAINp2 &Paste to all takes, slot...
+---
+> &Load project template
+    _S&M_APPLY_PRJTEMPLATE1 &Load project template #01
+    _S&M_APPLY_PRJTEMPLATE2 &Load project template #02
+    _S&M_APPLY_PRJTEMPLATE3 &Load project template #03
+    _S&M_APPLY_PRJTEMPLATE4 &Load project template #04
+    _S&M_APPLY_PRJTEMPLATE5 &Load project template #05
+    _S&M_APPLY_PRJTEMPLATE6 &Load project template #06
+    _S&M_APPLY_PRJTEMPLATE7 &Load project template #07
+    _S&M_APPLY_PRJTEMPLATE8 &Load project template #08
+    _S&M_APPLY_PRJTEMPLATE9 &Load project template #09
+    _S&M_APPLY_PRJTEMPLATE10 &Load project template #10
+    ---
+    _S&M_APPLY_PRJTEMPLATEp &Load slot...
+> &Load project template in new tab
+    _S&M_NEWTAB_PRJTEMPLATE1 &Load project template #01
+    _S&M_NEWTAB_PRJTEMPLATE2 &Load project template #02
+    _S&M_NEWTAB_PRJTEMPLATE3 &Load project template #03
+    _S&M_NEWTAB_PRJTEMPLATE4 &Load project template #04
+    _S&M_NEWTAB_PRJTEMPLATE5 &Load project template #05
+    _S&M_NEWTAB_PRJTEMPLATE6 &Load project template #06
+    _S&M_NEWTAB_PRJTEMPLATE7 &Load project template #07
+    _S&M_NEWTAB_PRJTEMPLATE8 &Load project template #08
+    _S&M_NEWTAB_PRJTEMPLATE9 &Load project template #09
+    _S&M_NEWTAB_PRJTEMPLATE10 &Load project template #10
+    ---
+    _S&M_NEWTAB_PRJTEMPLATEp &Load slot...
+---
+## TIMELINE
+> &Edit cursor position
+    _BR_RESTORE_CURSOR_POS_SLOT_1 &Load edit cursor position #01
+    _BR_RESTORE_CURSOR_POS_SLOT_2 &Load edit cursor position #02
+    _BR_RESTORE_CURSOR_POS_SLOT_3 &Load edit cursor position #03
+    _BR_RESTORE_CURSOR_POS_SLOT_4 &Load edit cursor position #04
+    _BR_RESTORE_CURSOR_POS_SLOT_5 &Load edit cursor position #05
+    _BR_RESTORE_CURSOR_POS_SLOT_6 &Load edit cursor position #06
+    _BR_RESTORE_CURSOR_POS_SLOT_7 &Load edit cursor position #07
+    _BR_RESTORE_CURSOR_POS_SLOT_8 &Load edit cursor position #08
+    ---
+    _BR_SAVE_CURSOR_POS_SLOT_1 &Save edit cursor position #01
+    _BR_SAVE_CURSOR_POS_SLOT_2 &Save edit cursor position #02
+    _BR_SAVE_CURSOR_POS_SLOT_3 &Save edit cursor position #03
+    _BR_SAVE_CURSOR_POS_SLOT_4 &Save edit cursor position #04
+    _BR_SAVE_CURSOR_POS_SLOT_5 &Save edit cursor position #05
+    _BR_SAVE_CURSOR_POS_SLOT_6 &Save edit cursor position #06
+    _BR_SAVE_CURSOR_POS_SLOT_7 &Save edit cursor position #07
+    _BR_SAVE_CURSOR_POS_SLOT_8 &Save edit cursor position #08
+> &Loop points
+    _SWS_RESTLOOP1 &Load loop points #01
+    _SWS_RESTLOOP2 &Load loop points #02
+    _SWS_RESTLOOP3 &Load loop points #03
+    _SWS_RESTLOOP4 &Load loop points #04
+    _SWS_RESTLOOP5 &Load loop points #05
+    ---
+    _SWS_RESTLOOPNEXT &Load next slot
+    ---
+    _SWS_SAVELOOP1 &Save loop points #01
+    _SWS_SAVELOOP2 &Save loop points #02
+    _SWS_SAVELOOP3 &Save loop points #03
+    _SWS_SAVELOOP4 &Save loop points #04
+    _SWS_SAVELOOP5 &Save loop points #05
+> &Time selection
+    _SWS_RESTTIME1 &Load time selection #01
+    _SWS_RESTTIME2 &Load time selection #02
+    _SWS_RESTTIME3 &Load time selection #03
+    _SWS_RESTTIME4 &Load time selection #04
+    _SWS_RESTTIME5 &Load time selection #05
+    ---
+    _SWS_RESTTIMENEXT &Load next slot
+    ---
+    _SWS_SAVETIME1 &Save time selection #01
+    _SWS_SAVETIME2 &Save time selection #02
+    _SWS_SAVETIME3 &Save time selection #03
+    _SWS_SAVETIME4 &Save time selection #04
+    _SWS_SAVETIME5 &Save time selection #05
+---
+## TRACKS
+> &Arrange view
+    _SWS_RESTOREVIEW &Load arrange view #01
+    _WOL_RESTOREVIEWS2 &Load arrange view #02
+    _WOL_RESTOREVIEWS3 &Load arrange view #03
+    _WOL_RESTOREVIEWS4 &Load arrange view #04
+    _WOL_RESTOREVIEWS5 &Load arrange view #05
+    ---
+    _SWS_SAVEVIEW &Save arrange view #01
+    _WOL_SAVEVIEWS2 &Save arrange view #02
+    _WOL_SAVEVIEWS3 &Save arrange view #03
+    _WOL_SAVEVIEWS4 &Save arrange view #04
+    _WOL_SAVEVIEWS5 &Save arrange view #05
+> &Track heights
+    _XENAKIOS_RECALLTRACKHEIGHTS &Load selected tracks' heights
+    _XENAKIOS_STORETRACKHEIGHTS &Save selected tracks' heights
+> &Track states
+    _S&M_RESTOREFOLDERSTATE2 &Load selected tracks' compact states
+    _S&M_SAVEFOLDERSTATE2 &Save selected tracks' compact states
+    ---
+    _S&M_RESTOREFOLDERSTATE1 &Load selected tracks' folder states
+    _S&M_SAVEFOLDERSTATE1 &Save selected tracks' folder states
+    ---
+    _SWS_RESTRMUTES &Load selected tracks' (and inputs') mute states
+    _SWS_SAVEMUTES &Save selected tracks' (and inputs') mute states
+    ---
+    _SWS_RESTMSTFXEN &Load master track's FX enabled state
+    _SWS_SAVEMSTFXEN &Save master track's FX enabled state
+> &Track solo and mute
+    _BR_RESTORE_SOLO_MUTE_ALL_TRACKS_SLOT_1 &Load tracks' solo and mute state #01
+    _BR_RESTORE_SOLO_MUTE_ALL_TRACKS_SLOT_2 &Load tracks' solo and mute state #02
+    _BR_RESTORE_SOLO_MUTE_ALL_TRACKS_SLOT_3 &Load tracks' solo and mute state #03
+    _BR_RESTORE_SOLO_MUTE_ALL_TRACKS_SLOT_4 &Load tracks' solo and mute state #04
+    _BR_RESTORE_SOLO_MUTE_ALL_TRACKS_SLOT_5 &Load tracks' solo and mute state #05
+    _BR_RESTORE_SOLO_MUTE_ALL_TRACKS_SLOT_6 &Load tracks' solo and mute state #06
+    _BR_RESTORE_SOLO_MUTE_ALL_TRACKS_SLOT_7 &Load tracks' solo and mute state #07
+    _BR_RESTORE_SOLO_MUTE_ALL_TRACKS_SLOT_8 &Load tracks' solo and mute state #08
+    ---
+    _BR_RESTORE_SOLO_MUTE_SEL_TRACKS_SLOT_1 &Load selected tracks' solo and mute state #01
+    _BR_RESTORE_SOLO_MUTE_SEL_TRACKS_SLOT_2 &Load selected tracks' solo and mute state #02
+    _BR_RESTORE_SOLO_MUTE_SEL_TRACKS_SLOT_3 &Load selected tracks' solo and mute state #03
+    _BR_RESTORE_SOLO_MUTE_SEL_TRACKS_SLOT_4 &Load selected tracks' solo and mute state #04
+    _BR_RESTORE_SOLO_MUTE_SEL_TRACKS_SLOT_5 &Load selected tracks' solo and mute state #05
+    _BR_RESTORE_SOLO_MUTE_SEL_TRACKS_SLOT_6 &Load selected tracks' solo and mute state #06
+    _BR_RESTORE_SOLO_MUTE_SEL_TRACKS_SLOT_7 &Load selected tracks' solo and mute state #07
+    _BR_RESTORE_SOLO_MUTE_SEL_TRACKS_SLOT_8 &Load selected tracks' solo and mute state #08
+    ---
+    _BR_SAVE_SOLO_MUTE_ALL_TRACKS_SLOT_1 &Save tracks' solo and mute state #01
+    _BR_SAVE_SOLO_MUTE_ALL_TRACKS_SLOT_2 &Save tracks' solo and mute state #02
+    _BR_SAVE_SOLO_MUTE_ALL_TRACKS_SLOT_3 &Save tracks' solo and mute state #03
+    _BR_SAVE_SOLO_MUTE_ALL_TRACKS_SLOT_4 &Save tracks' solo and mute state #04
+    _BR_SAVE_SOLO_MUTE_ALL_TRACKS_SLOT_5 &Save tracks' solo and mute state #05
+    _BR_SAVE_SOLO_MUTE_ALL_TRACKS_SLOT_6 &Save tracks' solo and mute state #06
+    _BR_SAVE_SOLO_MUTE_ALL_TRACKS_SLOT_7 &Save tracks' solo and mute state #07
+    _BR_SAVE_SOLO_MUTE_ALL_TRACKS_SLOT_8 &Save tracks' solo and mute state #08
+    ---
+    _BR_SAVE_SOLO_MUTE_SEL_TRACKS_SLOT_1 &Save selected tracks' solo and mute state #01
+    _BR_SAVE_SOLO_MUTE_SEL_TRACKS_SLOT_2 &Save selected tracks' solo and mute state #02
+    _BR_SAVE_SOLO_MUTE_SEL_TRACKS_SLOT_3 &Save selected tracks' solo and mute state #03
+    _BR_SAVE_SOLO_MUTE_SEL_TRACKS_SLOT_4 &Save selected tracks' solo and mute state #04
+    _BR_SAVE_SOLO_MUTE_SEL_TRACKS_SLOT_5 &Save selected tracks' solo and mute state #05
+    _BR_SAVE_SOLO_MUTE_SEL_TRACKS_SLOT_6 &Save selected tracks' solo and mute state #06
+    _BR_SAVE_SOLO_MUTE_SEL_TRACKS_SLOT_7 &Save selected tracks' solo and mute state #07
+    _BR_SAVE_SOLO_MUTE_SEL_TRACKS_SLOT_8 &Save selected tracks' solo and mute state #08
+> &Track default sends
+    _S&M_RECALL_DEFSNDFLAGS &Load default track send preferences
+    _S&M_SAVE_DEFSNDFLAGS &Save default track send preferences
+    ---
+    _S&M_DEFSNDFLAGS_AUDIO &Audio only
+    _S&M_DEFSNDFLAGS_BOTH &Audio and MIDI
+    _S&M_DEFSNDFLAGS_MIDI &MIDI only
+> &Track selection
+    _SWS_RESTORESEL &Load saved track selection
+    _SWS_SAVESEL &Save current track selection
+> &Envelope point selection
+    _BR_RESTORE_ENV_SEL_SLOT_1 &Load envelope point selection #01
+    _BR_RESTORE_ENV_SEL_SLOT_2 &Load envelope point selection #02
+    _BR_RESTORE_ENV_SEL_SLOT_3 &Load envelope point selection #03
+    _BR_RESTORE_ENV_SEL_SLOT_4 &Load envelope point selection #04
+    _BR_RESTORE_ENV_SEL_SLOT_5 &Load envelope point selection #05
+    _BR_RESTORE_ENV_SEL_SLOT_6 &Load envelope point selection #06
+    _BR_RESTORE_ENV_SEL_SLOT_7 &Load envelope point selection #07
+    _BR_RESTORE_ENV_SEL_SLOT_8 &Load envelope point selection #08
+    ---
+    _BR_SAVE_ENV_SEL_SLOT_1 &Save envelope point selection #01
+    _BR_SAVE_ENV_SEL_SLOT_2 &Save envelope point selection #02
+    _BR_SAVE_ENV_SEL_SLOT_3 &Save envelope point selection #03
+    _BR_SAVE_ENV_SEL_SLOT_4 &Save envelope point selection #04
+    _BR_SAVE_ENV_SEL_SLOT_5 &Save envelope point selection #05
+    _BR_SAVE_ENV_SEL_SLOT_6 &Save envelope point selection #06
+    _BR_SAVE_ENV_SEL_SLOT_7 &Save envelope point selection #07
+    _BR_SAVE_ENV_SEL_SLOT_8 &Save envelope point selection #08
+---
+## ITEMS
+> &Item selection
+    _SWS_RESTALLSELITEMS1 &Load selected items
+    _SWS_SAVEALLSELITEMS1 &Save selected items
+    ---
+    _SWS_RESTSELITEMS1 &Load selected tracks' selected items #01
+    _SWS_RESTSELITEMS2 &Load selected tracks' selected items #02
+    _SWS_RESTSELITEMS3 &Load selected tracks' selected items #03
+    _SWS_RESTSELITEMS4 &Load selected tracks' selected items #04
+    _SWS_RESTSELITEMS5 &Load selected tracks' selected items #05
+    ---
+    _SWS_SAVESELITEMS1 &Save selected tracks' selected items #01
+    _SWS_SAVESELITEMS2 &Save selected tracks' selected items #02
+    _SWS_SAVESELITEMS3 &Save selected tracks' selected items #03
+    _SWS_SAVESELITEMS4 &Save selected tracks' selected items #04
+    _SWS_SAVESELITEMS5 &Save selected tracks' selected items #05
+> &Item states
+    _SWS_RESTORETRACK &Load selected tracks' items' states
+    _SWS_SAVETRACK &Save selected tracks' items' states
+    ---
+    _SWS_RESTSELONTRACK &Load selected tracks' selected items' states
+    _SWS_SAVESELONTRACK &Save selected tracks' selected items' states
+    ---
+    _SWS_RESTACTTAKES &Load selected tracks' active takes
+    _SWS_SAVEACTTAKES &Save selected tracks' active takes
+> &Item mute
+    _BR_RESTORE_SOLO_MUTE_ALL_ITEMS_SLOT_1 &Load items' mute state #01
+    _BR_RESTORE_SOLO_MUTE_ALL_ITEMS_SLOT_2 &Load items' mute state #02
+    _BR_RESTORE_SOLO_MUTE_ALL_ITEMS_SLOT_3 &Load items' mute state #03
+    _BR_RESTORE_SOLO_MUTE_ALL_ITEMS_SLOT_4 &Load items' mute state #04
+    _BR_RESTORE_SOLO_MUTE_ALL_ITEMS_SLOT_5 &Load items' mute state #05
+    _BR_RESTORE_SOLO_MUTE_ALL_ITEMS_SLOT_6 &Load items' mute state #06
+    _BR_RESTORE_SOLO_MUTE_ALL_ITEMS_SLOT_7 &Load items' mute state #07
+    _BR_RESTORE_SOLO_MUTE_ALL_ITEMS_SLOT_8 &Load items' mute state #08
+    ---
+    _BR_RESTORE_SOLO_MUTE_SEL_ITEMS_SLOT_1 &Load selected items' mute state #01
+    _BR_RESTORE_SOLO_MUTE_SEL_ITEMS_SLOT_2 &Load selected items' mute state #02
+    _BR_RESTORE_SOLO_MUTE_SEL_ITEMS_SLOT_3 &Load selected items' mute state #03
+    _BR_RESTORE_SOLO_MUTE_SEL_ITEMS_SLOT_4 &Load selected items' mute state #04
+    _BR_RESTORE_SOLO_MUTE_SEL_ITEMS_SLOT_5 &Load selected items' mute state #05
+    _BR_RESTORE_SOLO_MUTE_SEL_ITEMS_SLOT_6 &Load selected items' mute state #06
+    _BR_RESTORE_SOLO_MUTE_SEL_ITEMS_SLOT_7 &Load selected items' mute state #07
+    _BR_RESTORE_SOLO_MUTE_SEL_ITEMS_SLOT_8 &Load selected items' mute state #08
+    ---
+    _BR_SAVE_SOLO_MUTE_ALL_ITEMS_SLOT_1 &Save items' mute state #01
+    _BR_SAVE_SOLO_MUTE_ALL_ITEMS_SLOT_2 &Save items' mute state #02
+    _BR_SAVE_SOLO_MUTE_ALL_ITEMS_SLOT_3 &Save items' mute state #03
+    _BR_SAVE_SOLO_MUTE_ALL_ITEMS_SLOT_4 &Save items' mute state #04
+    _BR_SAVE_SOLO_MUTE_ALL_ITEMS_SLOT_5 &Save items' mute state #05
+    _BR_SAVE_SOLO_MUTE_ALL_ITEMS_SLOT_6 &Save items' mute state #06
+    _BR_SAVE_SOLO_MUTE_ALL_ITEMS_SLOT_7 &Save items' mute state #07
+    _BR_SAVE_SOLO_MUTE_ALL_ITEMS_SLOT_8 &Save items' mute state #08
+    ---
+    _BR_SAVE_SOLO_MUTE_SEL_ITEMS_SLOT_1 &Save selected items' mute state #01
+    _BR_SAVE_SOLO_MUTE_SEL_ITEMS_SLOT_2 &Save selected items' mute state #02
+    _BR_SAVE_SOLO_MUTE_SEL_ITEMS_SLOT_3 &Save selected items' mute state #03
+    _BR_SAVE_SOLO_MUTE_SEL_ITEMS_SLOT_4 &Save selected items' mute state #04
+    _BR_SAVE_SOLO_MUTE_SEL_ITEMS_SLOT_5 &Save selected items' mute state #05
+    _BR_SAVE_SOLO_MUTE_SEL_ITEMS_SLOT_6 &Save selected items' mute state #06
+    _BR_SAVE_SOLO_MUTE_SEL_ITEMS_SLOT_7 &Save selected items' mute state #07
+    _BR_SAVE_SOLO_MUTE_SEL_ITEMS_SLOT_8 &Save selected items' mute state #08
+> &CC lanes display
+    _S&M_MESETCCLANES1 &Load CC lane display #01
+    _S&M_MESETCCLANES2 &Load CC lane display #02
+    _S&M_MESETCCLANES3 &Load CC lane display #03
+    _S&M_MESETCCLANES4 &Load CC lane display #04
+    ---
+    _S&M_MESAVECCLANES1 &Save CC lane display #01
+    _S&M_MESAVECCLANES2 &Save CC lane display #02
+    _S&M_MESAVECCLANES3 &Save CC lane display #03
+    _S&M_MESAVECCLANES4 &Save CC lane display #04
+---
+> &Options
+    _SWS_RESTREPEAT &Load transport repeat state
+    _SWS_SAVEREPEAT &Save transport repeat state
+    ---
+    40756 &Load snap state
+    40755 &Save snap state
+    ---
+    _SWS_RESTOREXFD &Load auto-crossfade state
+    _SWS_SAVEXFD &Save auto-crossfade state
+    ---
+    _XENAKIOS_RECALLRENDERSPEED &Load render speed
+    _XENAKIOS_STORERENDERSPEED &Save render speed
