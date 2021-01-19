@@ -1,0 +1,109 @@
+## EVENTS
+40950 &Insert event...
+40458 &Insert lyric...
+40480 &Insert SysEx...
+40004 &Event properties...
+> &Velocity
+    40462 &Increase by 1
+    40464 &Decrease by 1
+    ---
+    40463 &Increase by 10
+    40465 &Decrease by 10
+> &Channel
+    40020 &1
+    40021 &2
+    40022 &3
+    40023 &4
+    40024 &5
+    40025 &6
+    40026 &7
+    40027 &8
+    40028 &9
+    40029 &10
+    40030 &11
+    40031 &12
+    40032 &13
+    40033 &14
+    40034 &15
+    40035 &16
+> &Lyrics
+    40475 &Shift selected lyrics forward one note
+    40476 &Shift selected lyrics backward one note
+    ---
+    40634 &Select next lyric
+    40635 &Select previous lyric
+    ---
+    40503 &Load lyrics for selected notes...
+    40474 &Align selected lyrics with notes
+---
+## EDITING
+> &Select
+    40003 &Select all notes
+    40746 &Select all notes in time selection
+    40434 &Select all notes with same note value
+    ---
+    40670 &Select all CC events
+    40747 &Select all CC events in time selection
+    40671 &Unselect all CC events
+    ---
+    40006 &Select all
+    40214 &Unselect all
+    ---
+    40501 &Invert selection
+> &Clipboard
+    40010 &Copy
+    40733 &Copy within time selection
+    ---
+    40012 &Cut
+    40734 &Cut within time selection
+    ---
+    40011 &Paste
+    40429 &Paste (preserving position)
+    ---
+    40667 &Delete
+> &Quantize
+    40009 &Quantize...
+    40727 &Quantize using last settings
+    40728 &Quantize to grid
+    ---
+    40406 &Quantize notes using last settings
+    40469 &Quantize notes' position to grid
+    40729 &Quantize notes' position and length to grid
+    40633 &Quantize notes' length to grid
+    ---
+    40403 &Freeze quantization
+    40402 &Unquantize
+    ---
+    40457 &Humanize...
+> &Transform
+    40055 &Mute
+    40019 &Reverse
+    40456 &Join
+    ---
+    40659 &Correct overlapping notes
+    40404 &Remove selected duplicate
+> &Length
+    40446 &Lengthen notes one grid unit
+    40447 &Shorten notes one grid unit
+    ---
+    40405 &Fill gaps, preserving note start times
+    ---
+    40754 &Fit notes to time selection
+---
+> &Default channel
+    40482 &1
+    40483 &2
+    40484 &3
+    40485 &4
+    40486 &5
+    40487 &6
+    40488 &7
+    40489 &8
+    40490 &9
+    40491 &10
+    40492 &11
+    40493 &12
+    40494 &13
+    40495 &14
+    40496 &15
+    40497 &16

@@ -1,0 +1,146 @@
+# &Options
+## GENERAL
+40016 &Preferences...
+41356 &Mouse modifiers...
+40021 &Project settings...
+> &Project actions
+    _S&M_SHOW_PRJ_ACTION &Show startup action...
+    _S&M_SET_PRJ_ACTION &Set startup action...
+    _S&M_CLR_PRJ_ACTION &Clear startup action...
+    ---
+    _BR_PROJ_TRACK_SEL_ACTION_SHOW &Show track selection action...
+    _BR_PROJ_TRACK_SEL_ACTION_SET &Set track selection action...
+    _BR_PROJ_TRACK_SEL_ACTION_CLEAR &Clear track selection action...
+> &Monitoring FX
+    41882 &Monitoring FX...
+    41884 &Bypass monitoring FX
+> &Configuration files
+    41569 &Import...
+    41568 &Export...
+---
+## LAYOUT
+1528 &Menus/Toolbars...
+> &Themes
+    45500 &Default classic
+    ---
+    41930 &Theme tweaks...
+    40690 &Element finder...
+    _S&M_THEME_HELPER_ALL &Theme helper...
+> &Layouts
+    48500 &Default layout
+---
+## WORKFLOW
+> &Snap and grid
+    1157 &Enable snap
+    40145 &Show grid lines
+    41885 &Show framerate grid
+    ---
+    41054 &Relative snapping
+    _BR_OPTIONS_SNAP_FOLLOW_GRID_VIS &Grid snap settings follow grid visibility
+    ---
+    _BR_OPTIONS_GRID_Z_OVER_ITEMS &Grid lines go over items
+    _BR_OPTIONS_GRID_Z_THROUGH_ITEMS &Grid lines go through items
+    _BR_OPTIONS_GRID_Z_UNDER_ITEMS &Grid lines go under items
+    ---
+    40071 &Snap and grid settings...
+> &Ripple editing
+    40309 &Off
+    40310 &Per-track
+    40311 &All tracks
+> &Locking
+    1135 &Toggle locking
+    40277 &Locking settings...
+    ---
+    40591 &Lock markers
+    40588 &Lock regions
+    40594 &Lock time signature markers
+    ---
+    40573 &Lock time selection
+    40629 &Lock loop points
+    40585 &Lock track envelopes
+    ---
+    40576 &Lock items fully
+    40597 &Lock item edges
+    40600 &Lock item controls
+    41851 &Lock item envelopes
+    41854 &Lock stretch markers
+    40579 &Lock items (left/right)
+    40582 &Lock items (up/down)
+---
+## TIMELINE
+> &Timebase
+    _SWS_AWTBASEBEATPOS &Beats (position only)
+    _SWS_AWTBASEBEATALL &Beats (position, length, rate)
+    _SWS_AWTBASETIME &Time
+> &Behavior
+    40621 &Link loop points and time selection
+    _SWS_AWCLRLOOPCLKTOG &Clear loop points on ruler click
+    ---
+    _SWS_AWCLRTIMESELCLKTOG &Link edit cursor and time selection
+    40276 &Move edit cursor to start of time selection on change
+    _BR_OPTIONS_MOVE_CUR_ON_PASTE &Move edit cursor when pasting/inserting media
+    ---
+    _SWS_EN_DRAGZOOM_TOP &Drag zoom via ruler top
+    _SWS_EN_DRAGZOOM_BOT &Drag zoom via ruler bottom
+    ---
+    _SWSMA_TOGGLE &Enable marker actions
+    _SWS_RECREDRULER &Red ruler while recording
+> &Seeking
+    _SWS_TOGSEEKMODE1 &Seek playback on item move/size
+    _SWS_TOGSEEKMODE2 &Seek playback on loop point change
+    _XEN_PREF_STOPATENDLOOP &Stop playback at end of time selection
+    ---
+    40390 &Smooth seek
+> &Scrolling
+    40262 &Automatically scroll view during recording
+    40036 &Automatically scroll view during playback
+    41817 &Continuous scrolling during playback
+    ---
+    _BR_OPTIONS_SCROLL_TO_CURS_ON_STOP &Scroll view to edit cursor on stop
+---
+## ITEMS
+> &Display
+    40651 &Show item labels
+    40258 &Show labels above item
+    _BR_OPTIONS_DISPLAY_&Show item take names
+    ---
+    _BR_OPTIONS_DISPLAY_&Show item pitch/playrate if set
+    _BR_OPTIONS_DISPLAY_&Show item gain if set
+    40691 &Show media cues
+    ---
+    41344 &Show tooltips
+> &Lanes
+    40507 &Show overlapping items in lanes
+    ---
+    40435 &Show takes in lanes (when room)
+    41346 &Show empty take lanes
+    41355 &Allow selecting empty take lanes
+    ---
+    41338 &Slip editing adjusts all take lanes
+> &Fades
+    40041 &Auto-crossfade media items when editing
+    40912 &Auto-crossfade on split (default fade length)
+    41194 &Auto-fade new items (default fade length)
+    ---
+    _SWS_TOGDEFFADEZERO &Toggle default fade time to zero
+    ---
+    41117 &Trim content behind items when editing
+> &Media
+    40263 &Copy imported media to project directory
+    41071 &Pool MIDI when copying media items
+    ---
+    40155 &Increase peaks view gain
+    40156 &Decrease peaks view gain
+> &Automation
+    40070 &Move envelope points with media items
+    41576 &Envelope point selection follows time selection
+    ---
+    40648 &Add edge points when moving envelope points
+    40649 &Add edge points when ripple editing
+    _SWS_TOGAUTOADDENVS &Add envelopes when tweaking in write mode
+    ---
+    _BR_OPTIONS_ENV_TRIM_ALWAYS &Always apply trim when adding volume/pan envelopes
+    _BR_OPTIONS_ENV_TRIM_READWRITE &In read/write mode, apply trim when adding volume/pan envelopes
+    _BR_OPTIONS_ENV_TRIM_NEVER &Never apply trim when adding volume/pan envelopes
+    ---
+    40650 &Reduce data when recording/drawing automation

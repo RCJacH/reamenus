@@ -1,0 +1,626 @@
+## ITEMS
+40009 &Item properties...
+40011 &Source properties...
+> &Properties
+    40850 &Item notes...
+    > &Labels
+        _XENAKIOS_AUTORENAMETAKES &Auto-rename takes...
+        ---
+        _IX_LABEL_PROC &Label processor...
+        _XENAKIOS_RENMTAKE &Rename takes...
+        _XENAKIOS_RENMTAKEALL &Rename takes with same name...
+        ---
+        _FNG_MIDI_NAME &Rename selected MIDI takes to first note
+    > &State
+        40175 &Mute items
+        41561 &Solo items
+        40687 &Lock items
+        ---
+        40636 &Loop item source
+        40547 &Loop section of audio item
+        ---
+        40437 &Play all takes
+        ---
+        _XENAKIOS_RESETITEMLENMEDOFFS &Reset item length/media offset
+        _XENAKIOS_ITEMPROPINTERPDLG &Item property interpolator...
+    ---
+    > &Volume
+        40108 &Normalize
+        40254 &Normalize to common gain
+        _SWS_NORMRMS &Normalize to rms
+        _SWS_NORMPEAKRMS &Normalize to peak rms
+        _SWS_NORMPEAKRMSALL &Normalize to overall peak rms
+        _BR_NORMALIZE_LOUDNESS_ITEMS_LU &Normalize loudness to 0 LU
+        _BR_NORMALIZE_LOUDNESS_ITEMS23 &Normalize to -23 LUFS
+        ---
+        _XENAKIOS_TOGGLETAKENORMALIZE &Toggle takes normalized
+        _XENAKIOS_NORMALZTAKESDB &Normalize selected takes to dB value...
+        ---
+        _XENAKIOS_SETVOLSELITEMS &Set volume of selected items...
+        _XENAKIOS_SETPANVOLSELTAKES &Set volume and pan of selected takes...
+        40938 &Reset volume
+    > &Fade
+        40509 &Fade items in to cursor
+        40510 &Fade items out from cursor
+        ---
+        41191 &Remove fade in
+        41192 &Remove fade out
+        41193 &Remove fade-in and fade-out
+        ---
+        41059 &Crossfade any overlapping items
+        40916 &Crossfade selected items within time selection
+        _SWS_AWFADESEL &Fade/crossfade selected area of selected items
+    ---
+    > &Pitch
+        40206 &Up one cent
+        40204 &Up one semitone
+        40515 &Up one octave
+        ---
+        40207 &Down one cent
+        40205 &Down one semitone
+        40516 &Down one octave
+        ---
+        40653 &Reset item pitch
+    > &Playrate
+        40519 &Up ten cents
+        40518 &Up one semitone
+        ---
+        40520 &Down ten cents
+        40517 &Down one semitone
+        ---
+        _XENAKIOS_ITEMPITCH2PLAYRATE &Set playrate based on pitch (and reset pitch)
+        40566 &Preserve pitch when changing playrate
+        40652 &Reset item rate
+    ---
+    > &Channel mode
+        40176 &Normal
+        40177 &Reverse stereo
+        > &Stereo channels
+            41450 &Stereo 1/2
+            41451 &Stereo 2/3
+            41452 &Stereo 3/4
+            41453 &Stereo 4/5
+            41454 &Stereo 5/6
+            41455 &Stereo 6/7
+            41456 &Stereo 7/8
+            41457 &Stereo 8/9
+            41458 &Stereo 9/10
+            41459 &Stereo 10/11
+            41460 &Stereo 11/12
+            41461 &Stereo 12/13
+            41462 &Stereo 13/14
+            41463 &Stereo 14/15
+            41464 &Stereo 15/16
+            41465 &Stereo 16/17
+            41466 &Stereo 17/18
+            41467 &Stereo 18/19
+            41468 &Stereo 19/20
+            41469 &Stereo 20/21
+            41470 &Stereo 21/22
+            41471 &Stereo 22/23
+            41472 &Stereo 23/24
+            41473 &Stereo 24/25
+            41474 &Stereo 25/26
+            41475 &Stereo 26/27
+            41476 &Stereo 27/28
+            41477 &Stereo 28/29
+            41478 &Stereo 29/30
+            41479 &Stereo 30/31
+            41480 &Stereo 31/32
+            41481 &Stereo 32/33
+            41482 &Stereo 33/34
+            41483 &Stereo 34/35
+            41484 &Stereo 35/36
+            41485 &Stereo 36/37
+            41486 &Stereo 37/38
+            41487 &Stereo 38/39
+            41488 &Stereo 39/40
+            41489 &Stereo 40/41
+            41490 &Stereo 41/42
+            41491 &Stereo 42/43
+            41492 &Stereo 43/44
+            41493 &Stereo 44/45
+            41494 &Stereo 45/46
+            41495 &Stereo 46/47
+            41496 &Stereo 47/48
+            41497 &Stereo 48/49
+            41498 &Stereo 49/50
+            41499 &Stereo 50/51
+            41500 &Stereo 51/52
+            41501 &Stereo 52/53
+            41502 &Stereo 53/54
+            41503 &Stereo 54/55
+            41504 &Stereo 55/56
+            41505 &Stereo 56/57
+            41506 &Stereo 57/58
+            41507 &Stereo 58/59
+            41508 &Stereo 59/60
+            41509 &Stereo 60/61
+            41510 &Stereo 61/62
+            41511 &Stereo 62/63
+            41512 &Stereo 63/64
+        ---
+        40178 &Mono (downmix)
+        40179 &Mono (left)
+        40180 &Mono (right)
+        > &Mono channels
+            41388 &Mono 3
+            41389 &Mono 4
+            41390 &Mono 5
+            41391 &Mono 6
+            41392 &Mono 7
+            41393 &Mono 8
+            41394 &Mono 9
+            41395 &Mono 10
+            41396 &Mono 11
+            41397 &Mono 12
+            41398 &Mono 13
+            41399 &Mono 14
+            41400 &Mono 15
+            41401 &Mono 16
+            41402 &Mono 17
+            41403 &Mono 18
+            41404 &Mono 19
+            41405 &Mono 20
+            41406 &Mono 21
+            41407 &Mono 22
+            41408 &Mono 23
+            41409 &Mono 24
+            41410 &Mono 25
+            41411 &Mono 26
+            41412 &Mono 27
+            41413 &Mono 28
+            41414 &Mono 29
+            41415 &Mono 30
+            41416 &Mono 31
+            41417 &Mono 32
+            41418 &Mono 33
+            41419 &Mono 34
+            41420 &Mono 35
+            41421 &Mono 36
+            41422 &Mono 37
+            41423 &Mono 38
+            41424 &Mono 39
+            41425 &Mono 40
+            41426 &Mono 41
+            41427 &Mono 42
+            41428 &Mono 43
+            41429 &Mono 44
+            41430 &Mono 45
+            41431 &Mono 46
+            41432 &Mono 47
+            41433 &Mono 48
+            41434 &Mono 49
+            41435 &Mono 50
+            41436 &Mono 51
+            41437 &Mono 52
+            41438 &Mono 53
+            41439 &Mono 54
+            41440 &Mono 55
+            41441 &Mono 56
+            41442 &Mono 57
+            41443 &Mono 58
+            41444 &Mono 59
+            41445 &Mono 60
+            41446 &Mono 61
+            41447 &Mono 62
+            41448 &Mono 63
+            41449 &Mono 64
+        ---
+        40181 &Invert phase
+    > &Mix behavior
+        40919 &Always mix
+        40921 &Always replace
+        40918 &Enclosed items replace enclosing items
+        ---
+        40922 &Project default
+    > &Timebase
+        _SWS_AWITEMTBASEPROJ &Default (project)
+        _SWS_AWITEMTBASEBEATALL &Beats (position, length, rate)
+        _SWS_AWITEMTBASEBEATPOS &Beats (position only)
+        _SWS_AWITEMTBASETIME &Time
+    ---
+    > &Audio
+        40439 &Online selected media
+        40101 &Online all media
+        40440 &Offline selected media
+        40100 &Offline all media
+        ---
+        40047 &Build missing peaks
+        40441 &Rebuild selected peaks
+        40048 &Rebuild all peaks
+        40097 &Delete all peaks
+    > &MIDI
+        40685 &Convert MIDI take to file
+        40684 &Convert MIDI take to in-project event
+> &Open
+    40847 &Open inline
+    ---
+    40109 &Open using primary external editor
+    40132 &Open copies using primary external editor
+    ---
+    40202 &Open using secondary external editor
+    40203 &Open copies using secondary external editor
+    ---
+    _S&M_OPEN_&Open containing folder...
+---
+> &Item color
+    _SWS_ITEMORDCOL &Set to ordered custom colors
+    _SWS_ITEMGRAD &Set to color gradient
+    ---
+    _SWS_ITEMORDCOLTRACK &Set to ordered custom colors (per track)
+    _SWS_ITEMTRACKGRAD &Set to color gradient (per track)
+    _SWS_ITEMTRKCOL &Set to track color
+    ---
+    40707 &Set to default
+    40704 &Set to custom color...
+    ---
+    _SWS_ITEMCUSTCOL1 &Set to custom color #01
+    _SWS_ITEMCUSTCOL2 &Set to custom color #02
+    _SWS_ITEMCUSTCOL3 &Set to custom color #03
+    _SWS_ITEMCUSTCOL4 &Set to custom color #04
+    _SWS_ITEMCUSTCOL5 &Set to custom color #05
+    _SWS_ITEMCUSTCOL6 &Set to custom color #06
+    _SWS_ITEMCUSTCOL7 &Set to custom color #07
+    _SWS_ITEMCUSTCOL8 &Set to custom color #08
+    _SWS_ITEMCUSTCOL9 &Set to custom color #09
+    _SWS_ITEMCUSTCOL10 &Set to custom color #10
+    _SWS_ITEMCUSTCOL11 &Set to custom color #11
+    _SWS_ITEMCUSTCOL12 &Set to custom color #12
+    _SWS_ITEMCUSTCOL13 &Set to custom color #13
+    _SWS_ITEMCUSTCOL14 &Set to custom color #14
+    _SWS_ITEMCUSTCOL15 &Set to custom color #15
+    _SWS_ITEMCUSTCOL16 &Set to custom color #16
+    ---
+    _SWS_WHITEITEM &Set to white
+    _SWS_BLACKITEM &Set to black
+    ---
+    40705 &Set to random colors
+    40706 &Set to one random color
+> &Take color
+    41333 &Set to default color
+    41331 &Set to custom color...
+    41332 &Set to one random color
+    ---
+    _SWS_TAKECUSTCOL1 &Set to custom color #01
+    _SWS_TAKECUSTCOL2 &Set to custom color #02
+    _SWS_TAKECUSTCOL3 &Set to custom color #03
+    _SWS_TAKECUSTCOL4 &Set to custom color #04
+    _SWS_TAKECUSTCOL5 &Set to custom color #05
+    _SWS_tAKECUSTCOL6 &Set to custom color #06
+    _SWS_TAKECUSTCOL7 &Set to custom color #07
+    _SWS_TAKECUSTCOL8 &Set to custom color #08
+    _SWS_TAKECUSTCOL9 &Set to custom color #09
+    _SWS_TAKECUSTCOL10 &Set to custom color #10
+    _SWS_TAKECUSTCOL11 &Set to custom color #11
+    _SWS_TAKECUSTCOL12 &Set to custom color #12
+    _SWS_TAKECUSTCOL13 &Set to custom color #13
+    _SWS_TAKECUSTCOL14 &Set to custom color #14
+    _SWS_TAKECUSTCOL15 &Set to custom color #15
+    _SWS_TAKECUSTCOL16 &Set to custom color #16
+    ---
+    _SWS_TAKEORDCOL &Set all in selection to ordered custom colors
+    _SWS_TAKEGRAD &Set all in selection to color gradient
+    _SWS_TAKESRANDCOLS &Set all in selection to random custom colors
+    ---
+    41336 &Set all from same recording pass to default color
+    41334 &Set all from same recording pass to custom color...
+    41335 &Set all from same recording pass to one random color
+    ---
+    41337 &Set all to default color
+---
+## EDITING
+40362 &Glue selected items
+> &Select
+    _SWS_SELMUTEDITEMS &Select muted items
+    _SWS_SELUNMUTEDITEMS &Select unmuted items
+    40034 &Select grouped items
+    _SWS_SELLOCKITEMS &Select locked items
+    41611 &Select items pooled with selected items
+    ---
+    40421 &Select items on selected tracks
+    40717 &Select items within time selection
+    40718 &Select items on selected tracks within time selection
+    ---
+    _XENAKIOS_SELITEMSTOSTARTOFTRACK &Select items to the left of selected items
+    _XENAKIOS_SELITEMSTOENDOFTRACK &Select items to the right of selected items
+    ---
+    _XENAKIOS_SKIP_SELECT_FROM_ITEMS &Skip select items from selected items...
+    _XENAKIOS_SELECT_EVERY_NTH_ITEM &Skip select items in selected tracks...
+    ---
+    40182 &Select all items
+    40289 &Unselect all items
+    ---
+    41115 &Invert item selection
+    ---
+    _SWS_SAVEALLSELITEMS1 &Save selected items
+    _SWS_RESTALLSELITEMS1 &Recall selected items
+> &Select type
+    _BR_SEL_ALL_ITEMS_MIDI &Select all MIDI items
+    _BR_SEL_ALL_ITEMS_TIME_SEL_MIDI &Select all MIDI items within time selection
+    ---
+    _BR_SEL_ALL_ITEMS_AUDIO &Select all audio items
+    _BR_SEL_ALL_ITEMS_TIME_SEL_AUDIO &Select all audio items within time selection
+    ---
+    _BR_SEL_ALL_ITEMS_PIP &Select all sub-project (PiP) items
+    _BR_SEL_ALL_ITEMS_TIME_SEL_PIP &Select all sub-project (PiP) items within time selection
+    ---
+    _BR_SEL_ALL_ITEMS_VIDEO &Select all video items
+    _BR_SEL_ALL_ITEMS_TIME_SEL_VIDEO &Select all video items within time selection
+    ---
+    _BR_SEL_ALL_ITEMS_TIMECODE &Select all timecode generator items
+    _BR_SEL_ALL_ITEMS_TIME_SEL_TIMECODE &Select all timecode items within time selection
+    ---
+    _BR_SEL_ALL_ITEMS_CLICK &Select all click source items
+    _BR_SEL_ALL_ITEMS_TIME_SEL_CLICK &Select all click source items within time selection
+    ---
+    _BR_SEL_ALL_ITEMS_EMPTY &Select all empty items
+    _BR_SEL_ALL_ITEMS_TIME_SEL_EMPTY &Select all empty items within time selection
+> &Clipboard
+    40698 &Copy items
+    40060 &Copy selected area of items
+    40014 &Copy loop of selected area of items
+    ---
+    40699 &Cut items
+    40307 &Cut selected area of items
+    ---
+    40058 &Paste items
+    41072 &Paste items as pooled
+    40603 &Paste as takes in selected items
+    41748 &Paste by inserting time
+    _XENAKIOS_REPEATPASTE &Repeat paste...
+    ---
+    41295 &Duplicate items
+    41296 &Duplicated selected area of items
+    ---
+    40006 &Delete items
+    40312 &Delete selected area of items
+    40930 &Delete content behind items
+    _SWS_AWFIXOVERLAPS &Delete overlapping contend preserving starts
+> &Render
+    40601 &Render items as new take
+    _XENAKIOS_RENDERITEMNEWTAKEWITHTAIL &Render item to new take with tail...
+    ---
+    40361 &Apply FX to items (mono)
+    40209 &Apply FX to items (stereo)
+    40436 &Apply FX to items (MIDI)
+    ---
+    40773 &Create chromatic MIDI from selected items
+---
+> &Move
+    41226 &Nudge...
+    41249 &Nudge right by last setting
+    41250 &Nudge left by last setting
+    ---
+    40316 &Quantize item positions to grid...
+    40299 &Move to source preferred position
+    ---
+    _XENAKIOS_REPOSITION_ITEMS &Reposition selected items...
+    _XENAKIOS_RANDOMIZE_ITEMPOS &Randomize item positions...
+    41638 &Reorder adjacent items randomly
+    ---
+    _XENAKIOS_REMAP&Remap item positions...
+    _XENAKIOS_SWINGITEMPOSITIONS &Swing item positions...
+    _XENAKIOS_SCALEITEMPOS_STATIC &Scale position/length by static percentage...
+    ---
+    40068 &Move item up one item lane
+    40107 &Move item down one item lane
+    ---
+    41996 &Move items to new subproject
+> &Split
+    _S&M_SPLIT2 &Smart split
+    ---
+    40012 &Split at edit cursor
+    _S&M_SPLIT1 &Split at prior zero crossing
+    40196 &Split at play cursor
+    ---
+    40932 &Split at timeline grid
+    _S&M_SPLIT4 &Split at time selection
+    40931 &Split at project markers
+    40732 &Split at item's media cues
+    ---
+    40315 &Auto trim/split selected items...
+    40760 &Dynamic split selected items...
+    ---
+    40548 &Heal splits in selected items
+> &Explode/Implode
+    40894 &Explode multichannel audio or MIDI to items
+    40920 &Explode MIDI note rows to items
+    _XENAK_SPRDITOVERNEWTX &Explode items to new tracks (keep positions)
+    41513 &Explode REX to beat slices
+    ---
+    40644 &Implode items across tracks onto one track
+    _XENAK_MATRIXITEMIMPLODE &Implode selected items in place
+    ---
+    _XENAKIOS_SPREADITEMSOVERTRAX &Spread selected items over tracks...
+---
+> &Transform
+    41051 &Reverse take
+    40270 &Reverse to new take
+    _XENAKIOS_REVORDSELITEMS &Reverse order of selected items
+    ---
+    _FNG_ROTATE_POS &Rotate selected items positions
+    _FNG_ROTATE_POS_REV &Counter-rotate selected items positions
+    _FNG_ROTATE_POSLEN &Rotate selected items positions and lengths
+    _FNG_ROTATE_POSLEN_REV &Counter-rotate selected items positions and lengths
+    ---
+    _SWS_SETITEMLEN &Set length...
+    _FNG_LEGATO_LENGTH &Fill gaps by extending selected items
+    _FNG_LEGATO_RATE &Fill gaps by time stretching selected items
+    _SWS_AWFILLGAPSADVLASTSETTINGS &Fill gaps between selected items...
+    _FNG_EXPAND_BAR1 &Expand/contract selected items to bar
+    ---
+    40508 &Trim items to time selection
+    40511 &Trim items left of cursor
+    40512 &Trim items right of cursor
+> &Stretch
+    41842 &Add stretch marker
+    41843 &Add stretch marker at time selection
+    ---
+    41860 &Go to next stretch marker
+    41861 &Go to previous stretch marker
+    41862 &Go to nearest stretch marker
+    ---
+    41859 &Remove stretch marker at current position
+    41845 &Remove all stretch markers in time selection
+    41844 &Remove all stretch markers
+    ---
+    41846 &Snap stretch markers to grid
+    41847 &Snap stretch markers in time selection to grid
+    ---
+    41857 &Tonally-optimize item's stretch markers
+> &MIDI
+    _FNG_MIDI_UP_OCT &Transpose selected MIDI items up 1 octave
+    _FNG_MIDI_UP_SEMI &Transpose selected MIDI items up 1 semitone
+    _FNG_MIDI_DN_SEMI &Transpose selected MIDI items down 1 semitone
+    _FNG_MIDI_DN_OCT &Transpose selected MIDI items down 1 octave
+    ---
+    _FNG_MIDI_UP_VEL10 &Increase selected MIDI items' velocity by 10
+    _FNG_MIDI_UP_VEL1 &Increase selected MIDI items' velocity by 1
+    _FNG_MIDI_UP_VELM1 &Decrease selected MIDI items' velocity by 1
+    _FNG_MIDI_UP_VELM10 &Decrease selected MIDI items' velocity by 10
+    ---
+    _FNG_MIDI_HW_EMULATION_APPLY &Apply MIDI hardware emulation to selected takes
+    _FNG_MIDI_HW_EMULATION_SETTINGS &MIDI hardware emulation settings...
+> &Groove quantize
+    _FNG_GROOVE_TOOL &Groove tool...
+    _FNG_SHOW_GROOVE &Show current groove template...
+    ---
+    _FNG_GET_GROOVE &Get groove from selected items
+    _FNG_GET_GROOVE_MIDI &Get groove from selected notes in active MIDI editor
+    _FNG_LOAD_GROOVE &Load groove template from file
+    _FNG_SAVE_GROOVE &Save groove template to file
+    ---
+    _FNG_APPLY_GROOVE &Apply groove to selected items (within 16th)
+    _FNG_APPLY_GROOVE_32 &Apply groove to selected items (within 32nd)
+    _FNG_APPLY_MIDI_GROOVE_16 &Apply groove to selected notes in active MIDI editor (within 16th)
+    _FNG_APPLY_MIDI_GROOVE_32 &Apply groove to selected notes in active MIDI editor (within 32nd)
+    ---
+    _FNG_GROOVE_MARKER_START_BAR &Set groove marker start to current bar
+    _FNG_GROOVE_MARKER_START_CUR &Set groove marker start to edit cursor
+    ---
+    _FNG_GROOVE_MARKERS &Toggle groove markers (1x)
+    _FNG_GROOVE_MARKERS_2 &Toggle groove markers (2x)
+    _FNG_GROOVE_MARKERS_4 &Toggle groove markers (4x)
+    _FNG_GROOVE_MARKERS_8 &Toggle groove markers (8x)
+    ---
+    _FNG_QUANTIZE_TO_GRID &Quantize item and MIDI note positions to grid
+> &Transients
+    40375 &Go to next transient
+    _XENAKIOS_MOVECURNEXT_TRANSMINUSFADE &Go to next transient minus fade time
+    ---
+    40376 &Go to previous transient
+    _XENAKIOS_MOVECURPREV_TRANSMINUSFADE &Go to previous transient minus fade time
+    ---
+    _XENAKIOS_SPLIT_ITEMSATRANSIENTS &Split items at transients
+    41208 &Adjust transient sensitivity/threshold...
+---
+## TAKES
+41339 &Lock to active take
+> &List
+    45000 &(take list)
+> &Comping
+    41373 &Save/rename active comp...
+    41378 &Move active comp to top lane
+    41379 &Crop list to active comp
+    41374 &Remove active comp from list
+    ---
+    45100 &(comp list)
+> &Editing
+    40639 &Duplicate active take
+    40131 &Crop to active take in items
+    40129 &Delete active take from items
+    _S&M_CLRTAKE1 &Clear active take from items
+    ---
+    40125 &Switch items to next take
+    40126 &Switch items to previous take
+    ---
+    _XENAKIOS_RRSELECTTAKESOFITEMS &Select selected items' takes cyclically
+    _XENAKIOS_SHUFFLESELECTTAKES &Select selected items' takes randomly
+    ---
+    _SWS_SAVEACTTAKES &Save active takes on selected tracks
+    _SWS_RESTACTTAKES &Restore active takes on selected tracks
+> &Take lanes
+    41380 &Move active takes to top lane
+    ---
+    _S&M_MOVETAKE3 &Move active take up
+    _S&M_MOVETAKE4 &Move active take down
+    ---
+    41353 &Rotate take lanes forward
+    41354 &Rotate take lanes backward
+    ---
+    41352 &Add empty take lane above active take
+    41351 &Add empty take lane below active take
+    ---
+    41348 &Remove empty take lanes
+---
+> &FX
+    40638 &Show FX chain, active take
+    ---
+    _S&M_COPYFXCHAIN1 &Copy FX chain, active take
+    _S&M_COPYFXCHAIN2 &Cut FX chain, active take
+    ---
+    _S&M_COPYFXCHAIN8 &Paste FX chain, active take
+    _S&M_COPYFXCHAIN9 &Paste FX chain, all takes
+    ---
+    _S&M_COPYFXCHAIN3 &Replace FX chain, active take
+    _S&M_COPYFXCHAIN4 &Replace FX chain, all takes
+    ---
+    _S&M_CLRFXCHAIN1 &Delete FX chain, active take
+    _S&M_CLRFXCHAIN2 &Delete FX chain, all takes
+    ---
+    _S&M_TGL_TAKEFX_BYP &Toggle FX bypass, all takes
+    _S&M_TGL_TAKEFX_ONLINE &Toggle FX offline, all takes
+> &Envelopes
+    _XENAKIOS_SHOWTAKEMIXERDLG &Take mixer...
+    41974 &Take envelopes...
+    ---
+    40693 &Toggle take volume envelope
+    40694 &Toggle take pan envelope
+    40695 &Toggle take mute envelope
+    41612 &Toggle take pitch envelope
+    ---
+    _XENAKIOS_NUDGETAKEVOLUP &Volume up
+    _XENAKIOS_NUDGETAKEVOLDOWN &Volume down
+    _XENAKIOS_RESETTAKEVOL &Reset active take volume
+    ---
+    _S&M_PAN_TAKES_100L &Pan active takes 100% left
+    _S&M_PAN_TAKES_CENTER &Pan active takes to center
+    _S&M_PAN_TAKES_100R &Pan active takes 100% right
+    _XENAKIOS_PANTAKESOFITEMSYM &Pan takes of item symmetrically
+    ---
+    40855 &Mute selected area of active take of multitake item
+    40856 &Solo selected area of active take of multitake item
+> &Explode/Implode
+    40224 &Explode takes of items across tracks
+    40642 &Explode takes of items in place
+    40643 &Explode takes of items in order
+    ---
+    40543 &Implode items on same track into takes
+    40438 &Implode items across tracks into takes
+> &Propagate
+    41979 &Propagate to similarly-named items
+    41977 &Propagate to similarly-named items on track
+    ---
+    41978 &Propagate to similarly-named active takes
+    41976 &Propagate to similarly-named active takes on track
+---
+> &Grouping
+    40032 &Group items
+    40033 &Remove items from group
+    ---
+    1156 &Toggle item grouping
+    41156 &Selecting one grouped item selects group
+> &Locking
+    1135 &Toggle locking
+    40277 &Locking settings...
+    ---
+    40576 &Lock items (full)
+    ---
+    40597 &Lock item edges
+    40600 &Lock item controls
+    41851 &Lock item envelopes
+    41854 &Lock stretch markers
+    ---
+    40579 &Lock items (left/right)
+    40582 &Lock items (up/down)

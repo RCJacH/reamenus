@@ -1,0 +1,242 @@
+## CC EVENTS
+40004 &Event properties...
+40725 &Zoom to selected
+> &Select
+    40747 &Select all in time selection
+    ---
+    40668 &Select all in this lane
+    40669 &Unselect all in this lane
+    ---
+    40670 &Select all
+    40671 &Unselect all
+> &Clipboard
+    40010 &Copy
+    40733 &Copy within time selection
+    ---
+    40012 &Cut
+    40734 &Cut within time selection
+    ---
+    40011 &Paste
+    40429 &Paste preserving position in measure
+    ---
+    40667 &Delete
+---
+> &Adjust
+    40674 &Move left by grid
+    40675 &Move right by grid
+    ---
+    40672 &Move left 1 pixel
+    40673 &Move right 1 pixel
+    ---
+    40676 &Increase value a little bit
+    40677 &Decrease value a little bit
+> &Quantize
+    40009 &Quantize...
+    40727 &Quantize using last settings
+    40728 &Quantize to grid
+    ---
+    40403 &Freeze quantization
+    40402 &Unquantize
+> &Channel
+    40020 &1
+    40021 &2
+    40022 &3
+    40023 &4
+    40024 &5
+    40025 &6
+    40026 &7
+    40027 &8
+    40028 &9
+    40029 &10
+    40030 &11
+    40031 &12
+    40032 &13
+    40033 &14
+    40034 &15
+    40035 &16
+---
+## CC LANES
+40234 &Next CC lane
+40235 &Previous CC lane
+> &Lane
+    40237 &Velocity
+    40366 &Pitch
+    40367 &Program
+    40368 &Channel pressure
+    40369 &Bank/program select
+    40370 &Text events
+    40371 &SysEx
+    40238 &000 bank select msb
+    40239 &001 mod wheel msb
+    40240 &002 breath msb
+    40241 &003
+    40242 &004 foot pedal msb
+    40243 &005 portamento msb
+    40244 &006 data entry msb
+    40245 &007 volume msb
+    40246 &008 balance msb
+    40247 &009
+    40248 &010 pan position msb
+    40249 &011 expression msb
+    40250 &012 control 1 msb
+    40251 &013 control 2 msb
+    40252 &014
+    40253 &015
+    40254 &016 gp slider 1
+    40255 &017 gp slider 2
+    40256 &018 gp slider 3
+    40257 &019 gp slider 4
+    40258 &020
+    40259 &021
+    40260 &022
+    40261 &023
+    40262 &024
+    > &CC25-56
+        40263 &025
+        40264 &026
+        40265 &027
+        40266 &028
+        40267 &029
+        40268 &030
+        40269 &031
+        40270 &032 bank select lsb
+        40271 &033 mod wheel lsb
+        40272 &034 breath lsb
+        40273 &035
+        40274 &036 foot pedal lsb
+        40275 &037 portamento lsb
+        40276 &038 data entry lsb
+        40277 &039 volume lsb
+        40278 &040 balance lsb
+        40279 &041
+        40280 &042 pan position lsb
+        40281 &043 expression lsb
+        40282 &044 control 1 lsb
+        40283 &045 control 2 lsb
+        40284 &046
+        40285 &047
+        40286 &048
+        40287 &049
+        40288 &050
+        40289 &051
+        40290 &052
+        40291 &053
+        40292 &054
+        40293 &055
+        40294 &056
+    > &CC57-88
+        40295 &057
+        40296 &058
+        40297 &059
+        40298 &060
+        40299 &061
+        40300 &062
+        40301 &063
+        40302 &064 hold pedal (on/off)
+        40303 &065 portamento (on/off)
+        40304 &066 sostenuto (on/off)
+        40305 &067 soft pedal (on/off)
+        40306 &068 legato pedal (on/off)
+        40307 &069 hold 2 pedal (on/off)
+        40308 &070 sound variation
+        40309 &071 timbre/resonance
+        40310 &072 sound release
+        40311 &073 sound attack
+        40312 &074 brightness/cutoff freq
+        40313 &075 sound control 6
+        40314 &076 sound control 7
+        40315 &077 sound control 8
+        40316 &078 sound control 9
+        40317 &079 sound control 10
+        40318 &080 gp button 1 (on/off)
+        40319 &081 gp button 2 (on/off)
+        40320 &082 gp button 3 (on/off)
+        40321 &083 gp button 4 (on/off)
+        40322 &084
+        40323 &085
+        40324 &086
+        40325 &087
+        40326 &088
+    > &CC89---19
+        40327 &089
+        40328 &090
+        40329 &091 effects level
+        40330 &092 tremolo level
+        40331 &093 chorus level
+        40332 &094 celeste level
+        40333 &095 phaser level
+        40334 &096 data button inc
+        40335 &097 data button dec
+        40336 &098 non-reg parm lsb
+        40337 &099 non-reg parm msb
+        40338 &100 reg parm lsb
+        40339 &101 reg parm msb
+        40340 &102
+        40341 &103
+        40342 &104
+        40343 &105
+        40344 &106
+        40345 &107
+        40346 &108
+        40347 &109
+        40348 &110
+        40349 &111
+        40350 &112
+        40351 &113
+        40352 &114
+        40353 &115
+        40354 &116
+        40355 &117
+        40356 &118
+        40357 &119
+    > &14-bit
+        40840 &00/32 Bank Select 14-bit
+        40841 &01/33 Mod Wheel 14-bit
+        40842 &02/34 Breath 14-bit
+        40843 &03/35 14-bit
+        40844 &04/36 Foot Pedal 14-bit
+        40845 &05/37 Portamento 14-bit
+        40846 &06/38 Data Entry 14-bit
+        40847 &07/39 Volume 14-bit
+        40848 &08/40 Balance 14-bit
+        40849 &09/41 14-bit
+        40850 &10/42 Pan Position 14-bit
+        40851 &11/43 Expression 14-bit
+        40852 &12/44 Control 1 14-bit
+        40853 &13/45 Control 2 14-bit
+        40854 &14/46 14-bit
+        40855 &15/47 14-bit
+        40856 &16/48 GP Slider 1 14-bit
+        40857 &17/49 GP Slider 2 14-bit
+        40858 &18/50 GP Slider 3 14-bit
+        40859 &19/51 GP Slider 4 14-bit
+        40860 &20/52 14-bit
+        40861 &21/53 14-bit
+        40862 &22/54 14-bit
+        40863 &23/55 14-bit
+        40864 &24/56 14-bit
+        40865 &25/57 14-bit
+        40866 &26/58 14-bit
+        40867 &27/59 14-bit
+        40868 &28/60 14-bit
+        40869 &29/61 14-bit
+        40870 &30/62 14-bit
+        40871 &31/63 14-bit
+---
+> &Default channel
+    40482 &Channel 01
+    40483 &Channel 02
+    40484 &Channel 03
+    40485 &Channel 04
+    40486 &Channel 05
+    40487 &Channel 06
+    40488 &Channel 07
+    40489 &Channel 08
+    40490 &Channel 09
+    40491 &Channel 10
+    40492 &Channel 11
+    40493 &Channel 12
+    40494 &Channel 13
+    40495 &Channel 14
+    40496 &Channel 15
+    40497 &Channel 16
