@@ -4,90 +4,130 @@ import re
 
 
 spaces_re = re.compile(r'(^ +)')
+increment_re = re.compile(r'{{([\d|-]+)}}')
 
 
-class BaseParser(object):
-    def __init__(self, filepath):
+MIXINS_PATH = pathlib.Path(__file__).parent.parent / 'src' / 'mixins'
+
+
+class FileParser(object):
+    def __init__(self, filepath=''):
         self.path = pathlib.Path(filepath)
         suffixes = self.path.suffixes
         self.name = self.path.stem.split('.')[0]
         self.title = self.name
         if len(suffixes) > 1:
-            self.lang = suffixes[0][1:]
+            self.langstr = suffixes[0]
+            self.lang = self.langstr[1:]
         else:
+            self.langstr = ''
             self.lang = 'en'
         self.is_mixin = 'mixins' in self.path.parts
-        self.current_submenu_level = 0
+
+        self.mapper = {
+            '#': self.update_title,
+            '!': self.update_name,
+            '@import': self.mixin,
+            '##': lambda x: (f'-4 {x}',),
+            '>': lambda x: (f'-2 {x}',),
+            '---': lambda *_: ('-1',),
+            '++': self.incremental,
+        }
+        self.menu_items = []
+        self.current_indents = 0
 
     def __call__(self):
         with open(self.path, 'r', encoding='utf-8') as opened_file:
-            return self.parse(opened_file)
+            return self.parse(opened_file.readlines())
 
-    def parse(self, opened_file):
-        return opened_file.read()
+    def parse(self, lines):
+        self.parse_lines(lines)
+        return self.menu_items if self.is_mixin else self.finalize()
 
-
-def parse_mixin(filepath, lang='en'):
-    if lang == 'en':
-        lang = ''
-    else:
-        lang = f'.{lang}'
-    parser = BaseParser(f'{filepath}{lang}.txt')
-    return parser().split('\n')
-
-
-class FileParser(BaseParser):
-    def parse(self, opened_file):
-        self.menu_items = self.parse_lines(opened_file.readlines())
+    def finalize(self):
         final_list = [f'[{self.name}]']
         final_list += [f'item_{i}={v}' for i, v in enumerate(self.menu_items)]
-        final_list += [f'title={self.title}']
+        final_list.append(f'title={self.title}')
         return final_list
 
     def parse_lines(self, lines):
-        menu_items = []
-        current_submenu_level = 0
         for each_line in lines:
-            list_item = self.parse_line(each_line)
-            if not list_item:
-                continue
-            elif isinstance(list_item, str):
-                list_item = (list_item,)
-            back_count, current_submenu_level = self.get_back_count(
-                each_line, current_submenu_level,
-            )
-            menu_items += ('-3',) * back_count + list_item
-        if current_submenu_level > 0:
-            menu_items.append('-3')
-            current_submenu_level = 0
-        return menu_items
+            self.add_items(each_line)
+        self.finalize_indentation()
 
-    def get_back_count(self, line, current_level):
-        submenu_level = spaces_re.match(line)
+    def add_items(self, line):
+        list_item = self.parse_line(line)
+        if not list_item:
+            return
+        back_count = self.get_back_count(line)
+        self.menu_items += ('-3',) * back_count
+        self.menu_items += list_item
+
+    def get_back_count(self, line):
+        current_indents = self.current_indents
+        indents = spaces_re.match(line)
         try:
-            new_level = submenu_level.end(0)
+            new_indents = indents.end(0)
         except AttributeError:
-            new_level = 0
-        return math.ceil((current_level - new_level) / 4), new_level
+            new_indents = 0
+        self.current_indents = new_indents
+        return math.ceil((current_indents - new_indents) / 4)
 
     def parse_line(self, line):
-        if not line:
-            return None
         line = line.strip()
-        list_item = None
-        if line[:2] == '# ':
-            self.title = line.lstrip('# ')
-        elif line[:2] == '! ':
-            self.name = line.lstrip('! ')
-        elif line[:8] == '@import ':
-            filepath = self.path / '..' / 'mixins' / line.lstrip('@import ')
-            list_item = tuple(self.parse_lines(parse_mixin(filepath)))
-        elif line == '---':
-            list_item = '-1'
-        elif line[:2] == '##':
-            list_item = f'-4{line.lstrip("#")}'
-        elif line[0] == '>':
-            list_item = f'-2{line[1:]}'
+        try:
+            line_markup, line_content = line.split(' ', 1)
+        except ValueError:
+            line_markup, line_content = line, None
+
+        try:
+            func = self.mapper[line_markup]
+        except KeyError:
+            line_content = line
+            func = self.other
+        return func(line_content)
+
+    def finalize_indentation(self):
+        if self.current_indents > 0:
+            self.menu_items.append('-3')
+            self.current_indents = 0
+
+    def update_title(self, line):
+        self.title = line
+
+    def update_name(self, line):
+        self.name = line
+
+    def mixin(self, line):
+        mixin_file = MIXINS_PATH / f'{line}{self.langstr}.txt'
+        parser = FileParser(mixin_file)
+        return parser()
+
+    def incremental(self, line):
+        reps, line_content = line.split(' ', 1)
+        content_list = []
+        for i in range(int(reps)):
+            list_line = increment_re.sub(
+                lambda x: self.incremental_repl(x, i), line_content,
+            )
+            content_list.append(list_line)
+        return content_list
+
+    def incremental_repl(self, matchobj, i):
+        matched = matchobj.group(1)
+        try:
+            number, step = matched.split('|')
+        except ValueError:
+            number = matched
+            step = 1
         else:
-            list_item = line
-        return list_item
+            step = int(step)
+        digits = len(number)
+        padded = number[0] == '0'
+        final_number = int(number) + i * step
+        if padded:
+            return f'{str(final_number).zfill(digits)}'
+        return str(final_number)
+
+    def other(self, line):
+        return (line,) if isinstance(line, str) else line

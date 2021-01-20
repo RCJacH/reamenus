@@ -18,7 +18,7 @@ def test_init(filename, name, lang):
 
 
 def test_parse_title():
-    parser = FileParser('')
+    parser = FileParser()
     parser.parse_line('# title')
     assert parser.title == 'title'
 
@@ -26,17 +26,26 @@ def test_parse_title():
 @pytest.mark.parametrize(
     'line, list_item',
     [
-        ('## HEADER', '-4 HEADER'),
-        ('##### HEADER', '-4 HEADER'),
-        ('  ## HEADER', '-4 HEADER'),
-        ('    ###### HEADER', '-4 HEADER'),
-        ('---', '-1'),
-        ('  ---', '-1'),
-        ('    ---', '-1'),
+        ('## HEADER', ('-4 HEADER',)),
+        ('  ## HEADER', ('-4 HEADER',)),
+        ('    ## HEADER', ('-4 HEADER',)),
+        ('---', ('-1',)),
+        ('  ---', ('-1',)),
+        ('    ---', ('-1',)),
+        ('> subheader', ('-2 subheader',)),
+        ('    > subheader', ('-2 subheader',)),
+        ('       > subheader', ('-2 subheader',)),
+        ('++ 2 a{{1}}', ['a1', 'a2']),
+        ('++ 2 a{{1}}_b{{10}}', ['a1_b10', 'a2_b11']),
+        ('++ 3 a{{1}}_b{{10|2}}', ['a1_b10', 'a2_b12', 'a3_b14']),
+        ('++ 2 a{{17265}}_b{{10|-2}}', ['a17265_b10', 'a17266_b8']),
+        ('++ 2 a{{01}}_b{{10}}', ['a01_b10', 'a02_b11']),
+        ('++ 2 a{{01}}_b{{10|-2}}', ['a01_b10', 'a02_b8']),
     ],
 )
 def test_parse_line(line, list_item):
-    assert FileParser.parse_line(None, line) == list_item
+    parser = FileParser()
+    assert parser.parse_line(line) == list_item
 
 
 @pytest.mark.parametrize(
@@ -53,9 +62,9 @@ def test_parse_line(line, list_item):
     ],
 )
 def test_parse_subtitles(lines, list_items):
-    parser = FileParser('')
-    parser.current_submenu_level = 0
-    assert parser.parse_lines(lines) == list_items
+    parser = FileParser()
+    parser.is_mixin = True
+    assert parser.parse(lines) == list_items
 
 
 def test_parse_file():
