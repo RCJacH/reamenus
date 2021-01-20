@@ -76,136 +76,13 @@
         40176 &Normal
         40177 &Reverse stereo
         > &Stereo channels
-            41450 &Stereo 1/2
-            41451 &Stereo 2/3
-            41452 &Stereo 3/4
-            41453 &Stereo 4/5
-            41454 &Stereo 5/6
-            41455 &Stereo 6/7
-            41456 &Stereo 7/8
-            41457 &Stereo 8/9
-            41458 &Stereo 9/10
-            41459 &Stereo 10/11
-            41460 &Stereo 11/12
-            41461 &Stereo 12/13
-            41462 &Stereo 13/14
-            41463 &Stereo 14/15
-            41464 &Stereo 15/16
-            41465 &Stereo 16/17
-            41466 &Stereo 17/18
-            41467 &Stereo 18/19
-            41468 &Stereo 19/20
-            41469 &Stereo 20/21
-            41470 &Stereo 21/22
-            41471 &Stereo 22/23
-            41472 &Stereo 23/24
-            41473 &Stereo 24/25
-            41474 &Stereo 25/26
-            41475 &Stereo 26/27
-            41476 &Stereo 27/28
-            41477 &Stereo 28/29
-            41478 &Stereo 29/30
-            41479 &Stereo 30/31
-            41480 &Stereo 31/32
-            41481 &Stereo 32/33
-            41482 &Stereo 33/34
-            41483 &Stereo 34/35
-            41484 &Stereo 35/36
-            41485 &Stereo 36/37
-            41486 &Stereo 37/38
-            41487 &Stereo 38/39
-            41488 &Stereo 39/40
-            41489 &Stereo 40/41
-            41490 &Stereo 41/42
-            41491 &Stereo 42/43
-            41492 &Stereo 43/44
-            41493 &Stereo 44/45
-            41494 &Stereo 45/46
-            41495 &Stereo 46/47
-            41496 &Stereo 47/48
-            41497 &Stereo 48/49
-            41498 &Stereo 49/50
-            41499 &Stereo 50/51
-            41500 &Stereo 51/52
-            41501 &Stereo 52/53
-            41502 &Stereo 53/54
-            41503 &Stereo 54/55
-            41504 &Stereo 55/56
-            41505 &Stereo 56/57
-            41506 &Stereo 57/58
-            41507 &Stereo 58/59
-            41508 &Stereo 59/60
-            41509 &Stereo 60/61
-            41510 &Stereo 61/62
-            41511 &Stereo 62/63
-            41512 &Stereo 63/64
+            ++ 63 {{41450}} &Stereo {{1}}/{{2}}
         ---
         40178 &Mono (downmix)
         40179 &Mono (left)
         40180 &Mono (right)
         > &Mono channels
-            41388 &Mono 3
-            41389 &Mono 4
-            41390 &Mono 5
-            41391 &Mono 6
-            41392 &Mono 7
-            41393 &Mono 8
-            41394 &Mono 9
-            41395 &Mono 10
-            41396 &Mono 11
-            41397 &Mono 12
-            41398 &Mono 13
-            41399 &Mono 14
-            41400 &Mono 15
-            41401 &Mono 16
-            41402 &Mono 17
-            41403 &Mono 18
-            41404 &Mono 19
-            41405 &Mono 20
-            41406 &Mono 21
-            41407 &Mono 22
-            41408 &Mono 23
-            41409 &Mono 24
-            41410 &Mono 25
-            41411 &Mono 26
-            41412 &Mono 27
-            41413 &Mono 28
-            41414 &Mono 29
-            41415 &Mono 30
-            41416 &Mono 31
-            41417 &Mono 32
-            41418 &Mono 33
-            41419 &Mono 34
-            41420 &Mono 35
-            41421 &Mono 36
-            41422 &Mono 37
-            41423 &Mono 38
-            41424 &Mono 39
-            41425 &Mono 40
-            41426 &Mono 41
-            41427 &Mono 42
-            41428 &Mono 43
-            41429 &Mono 44
-            41430 &Mono 45
-            41431 &Mono 46
-            41432 &Mono 47
-            41433 &Mono 48
-            41434 &Mono 49
-            41435 &Mono 50
-            41436 &Mono 51
-            41437 &Mono 52
-            41438 &Mono 53
-            41439 &Mono 54
-            41440 &Mono 55
-            41441 &Mono 56
-            41442 &Mono 57
-            41443 &Mono 58
-            41444 &Mono 59
-            41445 &Mono 60
-            41446 &Mono 61
-            41447 &Mono 62
-            41448 &Mono 63
-            41449 &Mono 64
+            ++ 62 {{41388}} &Mono {{3}}
         ---
         40181 &Invert phase
     > &Mix behavior
@@ -255,22 +132,7 @@
     40707 &Set to default
     40704 &Set to custom color...
     ---
-    _SWS_ITEMCUSTCOL1 &Set to custom color #01
-    _SWS_ITEMCUSTCOL2 &Set to custom color #02
-    _SWS_ITEMCUSTCOL3 &Set to custom color #03
-    _SWS_ITEMCUSTCOL4 &Set to custom color #04
-    _SWS_ITEMCUSTCOL5 &Set to custom color #05
-    _SWS_ITEMCUSTCOL6 &Set to custom color #06
-    _SWS_ITEMCUSTCOL7 &Set to custom color #07
-    _SWS_ITEMCUSTCOL8 &Set to custom color #08
-    _SWS_ITEMCUSTCOL9 &Set to custom color #09
-    _SWS_ITEMCUSTCOL10 &Set to custom color #10
-    _SWS_ITEMCUSTCOL11 &Set to custom color #11
-    _SWS_ITEMCUSTCOL12 &Set to custom color #12
-    _SWS_ITEMCUSTCOL13 &Set to custom color #13
-    _SWS_ITEMCUSTCOL14 &Set to custom color #14
-    _SWS_ITEMCUSTCOL15 &Set to custom color #15
-    _SWS_ITEMCUSTCOL16 &Set to custom color #16
+    ++ 16 _SWS_ITEMCUSTCOL{{1}} &Set to custom color #{{01}}
     ---
     _SWS_WHITEITEM &Set to white
     _SWS_BLACKITEM &Set to black
@@ -282,22 +144,7 @@
     41331 &Set to custom color...
     41332 &Set to one random color
     ---
-    _SWS_TAKECUSTCOL1 &Set to custom color #01
-    _SWS_TAKECUSTCOL2 &Set to custom color #02
-    _SWS_TAKECUSTCOL3 &Set to custom color #03
-    _SWS_TAKECUSTCOL4 &Set to custom color #04
-    _SWS_TAKECUSTCOL5 &Set to custom color #05
-    _SWS_tAKECUSTCOL6 &Set to custom color #06
-    _SWS_TAKECUSTCOL7 &Set to custom color #07
-    _SWS_TAKECUSTCOL8 &Set to custom color #08
-    _SWS_TAKECUSTCOL9 &Set to custom color #09
-    _SWS_TAKECUSTCOL10 &Set to custom color #10
-    _SWS_TAKECUSTCOL11 &Set to custom color #11
-    _SWS_TAKECUSTCOL12 &Set to custom color #12
-    _SWS_TAKECUSTCOL13 &Set to custom color #13
-    _SWS_TAKECUSTCOL14 &Set to custom color #14
-    _SWS_TAKECUSTCOL15 &Set to custom color #15
-    _SWS_TAKECUSTCOL16 &Set to custom color #16
+    ++ 16 _SWS_TAKECUSTCOL{{1}} &Set to custom color #{{01}}
     ---
     _SWS_TAKEORDCOL &Set all in selection to ordered custom colors
     _SWS_TAKEGRAD &Set all in selection to color gradient

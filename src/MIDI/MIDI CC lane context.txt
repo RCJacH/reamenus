@@ -38,22 +38,7 @@
     40403 &Freeze quantization
     40402 &Unquantize
 > &Channel
-    40020 &1
-    40021 &2
-    40022 &3
-    40023 &4
-    40024 &5
-    40025 &6
-    40026 &7
-    40027 &8
-    40028 &9
-    40029 &10
-    40030 &11
-    40031 &12
-    40032 &13
-    40033 &14
-    40034 &15
-    40035 &16
+    {{40020}} &{{1}}
 ---
 ## CC LANES
 40234 &Next CC lane
@@ -224,19 +209,4 @@
         40871 &31/63 14-bit
 ---
 > &Default channel
-    40482 &Channel 01
-    40483 &Channel 02
-    40484 &Channel 03
-    40485 &Channel 04
-    40486 &Channel 05
-    40487 &Channel 06
-    40488 &Channel 07
-    40489 &Channel 08
-    40490 &Channel 09
-    40491 &Channel 10
-    40492 &Channel 11
-    40493 &Channel 12
-    40494 &Channel 13
-    40495 &Channel 14
-    40496 &Channel 15
-    40497 &Channel 16
+    ++ 16 {{40482}} &Channel {{01}}

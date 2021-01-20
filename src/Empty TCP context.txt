@@ -169,22 +169,7 @@
     40359 &Set to default color
     40357 &Set to custom color...
     ---
-    _SWS_TRACKCUSTCOL1 &Set to custom color 1
-    _SWS_TRACKCUSTCOL2 &Set to custom color 2
-    _SWS_TRACKCUSTCOL3 &Set to custom color 3
-    _SWS_TRACKCUSTCOL4 &Set to custom color 4
-    _SWS_TRACKCUSTCOL5 &Set to custom color 5
-    _SWS_TRACKCUSTCOL6 &Set to custom color 6
-    _SWS_TRACKCUSTCOL7 &Set to custom color 7
-    _SWS_TRACKCUSTCOL8 &Set to custom color 8
-    _SWS_TRACKCUSTCOL9 &Set to custom color 9
-    _SWS_TRACKCUSTCOL10 &Set to custom color 10
-    _SWS_TRACKCUSTCOL11 &Set to custom color 11
-    _SWS_TRACKCUSTCOL12 &Set to custom color 12
-    _SWS_TRACKCUSTCOL13 &Set to custom color 13
-    _SWS_TRACKCUSTCOL14 &Set to custom color 14
-    _SWS_TRACKCUSTCOL15 &Set to custom color 15
-    _SWS_TRACKCUSTCOL16 &Set to custom color 16
+    ++ 16 _SWS_TRACKCUSTCOL{{1}} &Set to custom color {{1}}
     ---
     _SWS_WHITETRACK &Set to white
     _SWS_BLACKTRACK &Set to black
@@ -248,22 +233,7 @@
     > &MIDI controls
         41555 &Link track controls to MIDI controls on all channels
         ---
-        41539 &Link track controls to MIDI controls on channel 01
-        41540 &Link track controls to MIDI controls on channel 02
-        41541 &Link track controls to MIDI controls on channel 03
-        41542 &Link track controls to MIDI controls on channel 04
-        41543 &Link track controls to MIDI controls on channel 05
-        41544 &Link track controls to MIDI controls on channel 06
-        41545 &Link track controls to MIDI controls on channel 07
-        41546 &Link track controls to MIDI controls on channel 08
-        41547 &Link track controls to MIDI controls on channel 09
-        41548 &Link track controls to MIDI controls on channel 10
-        41549 &Link track controls to MIDI controls on channel 11
-        41550 &Link track controls to MIDI controls on channel 12
-        41551 &Link track controls to MIDI controls on channel 13
-        41552 &Link track controls to MIDI controls on channel 14
-        41553 &Link track controls to MIDI controls on channel 15
-        41554 &Link track controls to MIDI controls on channel 16
+        ++ 16 {{41539}} &Link track controls to MIDI controls on channel {{01}}
         ---
         41538 &Do not link track controls to MIDI controls
         ---
