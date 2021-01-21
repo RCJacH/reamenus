@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "reamenu"
+name = "reamenus"
 version = "0.1.0"
 description = "ReaMenus, the community-driven menuset for Cockos REAPER"
 authors = ["mikestopcontinues", "RCJacH"]

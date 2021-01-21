@@ -1,6 +1,6 @@
 import os
 
-from reamenu import Finalizer
+from reamenus import Finalizer
 
 
 FILE_PATH = os.path.dirname(__file__)

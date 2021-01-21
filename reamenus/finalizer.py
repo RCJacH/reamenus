@@ -1,6 +1,6 @@
 import pathlib
 
-from reamenu.file_parser import FileParser
+from reamenus.file_parser import FileParser
 
 
 class Finalizer(object):

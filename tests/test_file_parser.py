@@ -1,6 +1,6 @@
 import pytest
 
-from reamenu.file_parser import FileParser
+from reamenus.file_parser import FileParser
 
 
 @pytest.mark.parametrize(
