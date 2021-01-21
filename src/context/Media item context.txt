@@ -103,6 +103,9 @@
         40440 &Offline selected media
         40100 &Offline all media
         ---
+        42303 Show spectrogram
+        42074 Peaks Display Settings...
+        ---
         40047 &Build missing peaks
         40441 &Rebuild selected peaks
         40048 &Rebuild all peaks
@@ -123,10 +126,10 @@
 ---
 > &Item color
     _SWS_ITEMORDCOL &Set to ordered custom colors
-    _SWS_ITEMGRAD &Set to color gradient
+    _SWS_ITEMGRAD &Set to SWS-color gradient
     ---
     _SWS_ITEMORDCOLTRACK &Set to ordered custom colors (per track)
-    _SWS_ITEMTRACKGRAD &Set to color gradient (per track)
+    _SWS_ITEMTRACKGRAD &Set to SWS-color gradient (per track)
     _SWS_ITEMTRKCOL &Set to track color
     ---
     40707 &Set to default
@@ -147,7 +150,7 @@
     ++ 16 _SWS_TAKECUSTCOL{{1}} &Set to custom color #{{01}}
     ---
     _SWS_TAKEORDCOL &Set all in selection to ordered custom colors
-    _SWS_TAKEGRAD &Set all in selection to color gradient
+    _SWS_TAKEGRAD &Set all in selection to SWS-color gradient
     _SWS_TAKESRANDCOLS &Set all in selection to random custom colors
     ---
     41336 &Set all from same recording pass to default color
@@ -353,6 +356,8 @@
     ---
     _FNG_QUANTIZE_TO_GRID &Quantize item and MIDI note positions to grid
 > &Transients
+    42028 &Calculate transient guides
+    ---
     40375 &Go to next transient
     _XENAKIOS_MOVECURNEXT_TRANSMINUSFADE &Go to next transient minus fade time
     ---
@@ -471,4 +476,3 @@
     ---
     40579 &Lock items (left/right)
     40582 &Lock items (up/down)
-title=Media item context

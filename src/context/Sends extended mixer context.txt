@@ -1,0 +1,20 @@
+## SEND
+40559 &Mute send
+40560 &Remove send
+40564 &Go to destination
+---
+40558 &Track routing...
+40251 &Routing Matrix...
+---
+> &Selected tracks
+    _SWS_TOGMPSEND &Toggle parent send
+    _SWS_SELROUTED &Select tracks routed here
+    ---
+    _S&M_COPYSNDRCV3 &Copy sends from selected tracks
+    _S&M_CUTSNDRCV3 &Cut sends from selected tracks
+    _S&M_PASTSNDRCV3 &Paste sends to selected tracks
+    ---
+    _SWS_MUTESENDS &Mute sends from selected tracks
+    _SWS_UNMUTESENDS &Unmute sends from selected tracks
+    ---
+    _S&M_SENDS6 &Remove sends from selected tracks

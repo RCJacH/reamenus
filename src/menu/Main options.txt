@@ -102,13 +102,20 @@
 > &Display
     40651 &Show item labels
     40258 &Show labels above item
-    _BR_OPTIONS_DISPLAY_&Show item take names
+    _BR_OPTIONS_DISPLAY_ITEM_TAKE_NAME &Show item take names
     ---
-    _BR_OPTIONS_DISPLAY_&Show item pitch/playrate if set
-    _BR_OPTIONS_DISPLAY_&Show item gain if set
+    _BR_OPTIONS_DISPLAY_ITEM_PITCH_RATE &Show item pitch/playrate if set
+    _BR_OPTIONS_DISPLAY_ITEM_GAIN &Show item gain if set
     40691 &Show media cues
     ---
     41344 &Show tooltips
+> &Peaks Display
+    42301 Show normal (non-spectral/non-spectrogram) peaks
+    42073 Show spectral peaks
+    42294 Show spectrogram
+    42295 Show spectrogram and peaks
+    ---
+    42074 Peaks Display Settings...
 > &Lanes
     40507 &Show overlapping items in lanes
     ---
@@ -144,3 +151,9 @@
     _BR_OPTIONS_ENV_TRIM_NEVER &Never apply trim when adding volume/pan envelopes
     ---
     40650 &Reduce data when recording/drawing automation
+> Automation items
+    42213 Bypass underlying envelope outside of automation items
+    ---
+    42203 Automation items do not attach to the underlying envelope
+    42204 Automation items attach to the underlying envelope on the right side
+    42205 Automation items attach to the underlying envelope on both sides

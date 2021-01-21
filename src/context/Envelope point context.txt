@@ -75,3 +75,29 @@
 @import envelope
 ---
 @import envelope_locking
+> Automation items
+    42082 Insert new automation item
+    > Load
+        42093 Load...
+        ---
+        42094 <automation items on disk>
+    ---
+    42085 Create pooled duplicate
+    42083 Create unpooled duplicate
+    ---
+    42092 Save...
+    42086 Delete
+    42088 Delete automation item, preserve points
+    ---
+    42211 Mute
+    42087 Split
+    42089 Glue
+    42084 Remove from pool
+    42090 Properties...
+> Automation item options for this envelope
+    42215 Project default behavior outside of automation items
+    42224 Bypass underlying envelope outside of automation items
+    ---
+    42221 Automation items do not attach to the underlying envelope
+    42222 Automation items attach to the underlying envelope on the right side
+    42223 Automation items attach to the underlying envelope on both sides

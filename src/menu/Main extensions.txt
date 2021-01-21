@@ -192,6 +192,12 @@ _S&M_SHOWFXCHAINSLOTS &FX chains...
     ++ 8 _BR_SAVE_SOLO_MUTE_ALL_ITEMS_SLOT_{{1}} &Save items' mute state #{{01}}
     ---
     ++ 8 _BR_SAVE_SOLO_MUTE_SEL_ITEMS_SLOT_{{1}} &Save selected items' mute state #{{01}}
+---
+> &Spectral Display
+    ++ 5 {{42077}} Load spectral peaks #{{01}}
+    ---
+    ++ 5 {{42296}} Load spectrogram #{{01}}
+---
 > &CC lanes display
     ++ 4 _S&M_MESETCCLANES{{1}} &Load CC lane display #{{01}}
     ---

@@ -1,0 +1,34 @@
+## MIXER
+> &Master track
+    41209 &Show master track
+    40389 &Show master track on right
+    ---
+    41636 &Show in floating window
+    41610 &Show in docker
+> &Visibility
+    40082 &Show top level tracks
+    40080 &Show folder tracks
+    40199 &Show child tracks
+    ---
+    40197 &Show tracks that have receives
+> &Controls
+    40549 &Show FX inserts when size permits
+    40910 &Show FX parameters when size permits
+    40557 &Show sends when size permits
+    ---
+    41154 &Folder icon toggles children
+    41153 &Show icon for last track in folder
+> &Sorting
+    41146 &Auto-arrange mixer tracks
+    ---
+    40081 &Group folders to left
+    40198 &Group tracks that have receives to left
+> &Interface
+    40221 &Scroll view when tracks activated
+    40371 &Show multiple rows of tracks when size permits
+    40372 &Always show maximum rows
+    ---
+    40903 &Show track icons
+---
+40083 &Dock mixer in docker
+40079 &Close

@@ -1,0 +1,100 @@
+## TRANSPORT
+40069 &Jump to...
+> &Jump to marker
+    40264 &No markers
+---
+> &Playback
+    1068 &Toggle repeating/looping
+    41834 &Toggle stop after loop if repeat disabled
+    ---
+    40868 &Toggle marker navigation
+    41583 &Toggle running FX on stop
+    40745 &Solo in front
+> &Playrate
+    40522 &Increase by one semitone
+    40523 &Decrease by one semitone
+    ---
+    40524 &Increase by 10 cents
+    40525 &Decrease by 10 cents
+    ---
+    40521 &Reset playrate
+    40672 &Apply playrate to current BPM
+    ---
+    40671 &Preserve pitch
+    > &Playrate range
+        40673 &0.25x - 4.0x (default)
+        40674 &0.5x - 2.0x
+        40675 &0.75x - 1.5x
+        40676 &0.9x - 1.1x
+> &Metronome
+    40364 &Enable metronome
+    40363 &Metronome and pre-roll settings...
+    ---
+    _SWS_AWCOUNTPLAYTOG &Pre-roll before playback
+    _SWS_AWMPLAYTOG &Metronome during playback
+    ---
+    41038 &Pre-roll before recording
+    _SWS_AWMRECTOG &Metronome during recording
+> &Time display
+    40411 &Measures.beats
+    40534 &Measures.beats + minutes : seconds
+    40414 &Hours : minutes : seconds : frames
+    40410 &Minutes : seconds
+    40412 &Seconds
+    40413 &Samples
+    41972 &Absolute frames
+    ---
+    40379 &Use ruler time unit
+---
+> &External timecode
+    40620 &Toggle synchronization
+    40619 &Synchronization settings...
+> &MIDI signals
+    41175 &Reset all MIDI devices
+    41070 &Reset soft takeover for all MIDI controller assignments
+    ---
+    40345 &Send all notes off to all MIDI outputs/plug-ins
+---
+## RECORDING
+> &Mode
+    40252 &Normal
+    40076 &Auto-punch time selection
+    40253 &Auto-punch selected items
+> &Behavior
+    41329 &Record to separate item lanes
+    41186 &Trim behind new recordings
+    _SWS_AWAUTOGROUPTOG &Auto-group newly recorded items
+    ---
+    41330 &Split items and create new takes
+    40114 &Loop recording always adds takes
+    ---
+    _SWS_TOGRECINCHECK &Check for duplicate inputs when recording
+    40300 &Move edit cursor to end of recording on stop
+> &Triggers
+    40046 &Start/stop recording at edit cursor
+    40045 &Start/stop recording at next beat
+    40067 &Start/stop recording after 2 beats
+    40003 &Start/stop recording at next measure
+    40056 &Start/stop recording at next project marker
+    ---
+    40668 &Stop and delete all recorded media
+> &Commands
+    40666 &Start new files (use while recording)
+    ---
+    40670 &Add recorded media to project
+    40669 &Remove recorded media not yet in project
+---
+## DISPLAY
+> &Location
+    41605 &Show above ruler
+    41603 &Show below arrange view
+    41606 &Show at top of main window
+    41604 &Show at bottom of main window
+    ---
+    40260 &Attach to main window
+    41608 &Attach to docker
+> &Interface
+    40532 &Show play state text
+    40531 &Show playrate control
+    40680 &Show tempo and time signature
+    40533 &Center controls

@@ -1,0 +1,366 @@
+# MIDI main menu context
+> &File
+    ## MIDI
+    1005 &Save to disk...
+    1013 &Load last save
+    40038 &Export MIDI...
+    ---
+    40455 &Rename MIDI take...
+    40478 &Double length of take
+    ---
+    40678 &Reset all MIDI devices
+    40435 &Send "all notes off" to all outputs
+    40666 &Raw MIDI data...
+    ---
+    40679 &Toggle locking to item's starting tempo
+    ---
+    40408 &Auto-save file on close
+    2 &Close editor
+> &Edit
+    ## HISTORY
+    40013 &Undo
+    40014 &Redo
+    ---
+    ## EDITING
+    40010 &Copy
+    40733 &Copy within time selection
+    ---
+    40012 &Cut
+    40734 &Cut within time selection
+    ---
+    40011 &Paste
+    40429 &Paste (preserving position)
+    ---
+    40667 &Delete
+    ---
+    40006 &Select all events
+    40003 &Select all notes
+    40501 &Invert selection
+    40214 &Unselect all
+> &Notes
+    ## NOTES
+    40004 &Note properties...
+    > &Velocity
+        40462 &Increase by 1
+        40464 &Decrease by 1
+        ---
+        40463 &Increase by 10
+        40465 &Decrease by 10
+    > &Channel
+        ++ 16 {{40020}} &{{1}}
+    > &Lyrics
+        40473 &Insert/edit lyric for selected note...
+        ---
+        40475 &Shift selected lyrics forward one note
+        40476 &Shift selected lyrics backward one note
+        ---
+        40634 &Select next lyric
+        40635 &Select previous lyric
+        ---
+        40474 &Align all selected lyrics with notes
+        40503 &Load lyrics for selected notes...
+    ---
+    ## EDITING
+    > &Select
+        40003 &Select all notes
+        40803 &Select all muted notes
+        40746 &Select all notes in time selection
+        40434 &Select all notes with same note value
+        ---
+        40670 &Select all CC events
+        40747 &Select all CC events in time selection
+        40671 &Unselect all CC events
+        ---
+        40006 &Select all
+        40214 &Unselect all
+        ---
+        40501 &Invert selection
+    > &Clipboard
+        40010 &Copy
+        40733 &Copy within time selection
+        ---
+        40012 &Cut
+        40734 &Cut within time selection
+        ---
+        40011 &Paste
+        40429 &Paste (preserving position)
+        ---
+        40886 &Duplicate
+        40883 &Duplicate within time selection
+        40888 &Duplicate (no trim)
+        40887 &Duplicate within time selection (no trim)
+        40884 &Duplicate octave up
+        40885 &Duplicate octave down
+        ---
+        40667 &Delete
+        > &Delete short notes
+            40810 &Shorter than 1/8 note in length
+            40811 &Shorter than 1/16 note in length
+            40812 &Shorter than 1/32 note in length
+            40813 &Shorter than 1/64 note in length
+            40814 &Shorter than 1/128 note in length
+            40815 &Shorter than 1/256 note in length
+        > &Delete trailing notes
+            40804 &Shorter than 1/8 note
+            40805 &Shorter than 1/16 note in length
+            40806 &Shorter than 1/32 note in length
+            40807 &Shorter than 1/64 note in length
+            40808 &Shorter than 1/128 note in length
+            40809 &Shorter than 1/256 note in length
+    > &Split
+        40046 &Split
+        40641 &Split on grid
+        ---
+        40456 &Join
+    > &Quantize
+        40009 &Quantize...
+        40406 &Quantize using last settings
+        ---
+        40469 &Quantize position to grid
+        40729 &Quantize position and length to grid
+        40633 &Quantize length to grid
+        ---
+        40403 &Freeze quantization
+        40402 &Unquantize
+        ---
+        40457 &Humanize...
+    > &Voicing
+        40019 &Reverse all events
+        40902 &Reverse selected events
+        ---
+        40905 &Invert all notes
+        40907 &Invert all notes following intervals
+        ---
+        40906 &Invert selected notes
+        40908 &Invert selected notes following intervals
+        ---
+        40909 &Invert voicing for selected notes up
+        40910 &Invert voicing for selected notes down
+        ---
+        40911 &Invert voicing for selected chords up
+        40912 &Invert voicing for selected chords down
+    > &Transform
+        40055 &Mute
+        40759 &Transpose...
+        ---
+        40659 &Correct overlapping notes
+        40404 &Remove selected duplicates
+    ---
+    > &Pitch
+        40177 &Up one semitone
+        40178 &Down one semitone
+        ---
+        40179 &Up one octave
+        40180 &Down one octave
+    > &Scale snap
+        40767 &Scale snap selected notes
+        ---
+        40764 &Next root
+        40763 &Previous root
+        ---
+        40757 &Next scale
+        40756 &Previous scale
+    > &Length
+        40446 &Lengthen notes one grid unit
+        40447 &Shorten notes one grid unit
+        ---
+        40444 &Lengthen notes one pixel
+        40445 &Shorten notes one pixel
+        ---
+        40765 &Fill gaps, preserving note start times
+        40766 &Fill gaps, preserving relative note spacing
+        ---
+        40773 &Double note lengths
+        40774 &Halve note lengths
+        ---
+        40754 &Fit notes to time selection
+    ---
+    > &Default channel
+        ++ 16 {{40482}} &{{1}}
+> &Options
+    ## EDITING
+    > &Track list/item lanes
+        40826 &Arrange view selection mode
+        ---
+        40892 &Lane selection is linked to editability
+        40891 &Lane selection is linked to visibility
+    > &Media items
+        40838 &Double-click extends the nearest media item
+        40817 &Editing MIDI extends media item
+        ---
+        40893 &Close MIDI editor when the active item is deleted
+    > &Notes
+        40479 &Drawing or selecting a note sets the new note length
+        40681 &Correct overlapping notes automatically
+        ---
+        40041 &Preview notes on add/edit
+        40830 &Preview notes on velocity change
+        40831 &Preview on keyboard action
+        40832 &Preview selected notes that overlap with edited note
+        ---
+        40955 &Renaming note applies to active channel only
+        40956 &Display note names for active media item only
+    > &CC events
+        40730 &Mouse click selects single CC event
+        40472 &CC selection follows note selection
+        ---
+        40878 &Edit CC events on all tracks
+        40874 &Draw and edit CC events on all tracks
+        ---
+        40816 &Display 14-bit MSB/LSB CC data as a single entry
+    ---
+    > &Step input mode
+        40481 &MIDI notes
+        40053 &F1-F12 keys
+    > &Snapping/grid
+        1014 &Toggle snapping
+        40829 &Toggle relative snapping
+        1017 &Toggle grid lines
+        ---
+        40748 &Always snap notes to left
+        40637 &Snap note ends to grid
+        ---
+        40210 &Grid size x2
+        40212 &Grid size x1/2
+        ---
+        40211 &Grid size x3
+        40213 &Grid size x1/3
+    > &Default channel
+        ++ 16 {{40482}} &{{1}}
+    ---
+    ## PLAYBACK
+    > &Transport
+        1139 &Toggle repeating/looping
+        40039 &Sync to main transport
+        ---
+        40750 &Automatically scroll view during playback
+    > &Timebase
+        40470 &Source beats
+        40459 &Project beats
+        40460 &Project time
+        ---
+        40640 &Sync to arrange view
+    > &Ruler format
+        40760 &Measures.beats
+        40736 &Measures.beats.100ths
+        40737 &Measures.beats.MIDI_ticks
+    ---
+    40642 &Menus/Toolbars...
+    40749 &Mouse modifiers...
+> &View
+    ## DISPLAY
+    > &Timeline
+        40951 &Show markers
+        40952 &Show regions
+        40953 &Show tempo markers
+    > &View mode
+        40042 &Piano roll
+        40043 &Named notes
+        40056 &Event list
+        40954 &Musical notation
+    > &Rows
+        40452 &Show all (piano roll)
+        40453 &Hide unused (named notes)
+        40454 &Hide unused and unnamed (named notes)
+    > &Shape
+        40449 &Rectangles
+        40448 &Triangles (drum mode)
+        40450 &Diamonds (drum mode)
+    ---
+    ## NOTES
+    > &Velocity
+        40040 &Velocity handles on notes
+        40632 &Velocity numbers on notes
+    > &Names
+        40045 &Note names on notes
+        ---
+        40411 &Rename current note
+        ---
+        40410 &Save note names to file...
+        40409 &Load note names from file...
+        ---
+        40412 &Clear all note names
+    > &Color
+        40738 &Color by velocity
+        40739 &Color by channel
+        40740 &Color by pitch
+        40741 &Color by source
+        40768 &Color by track color
+        40769 &Color by item color
+        ---
+        40498 &Load color map...
+        40499 &Reset color map
+    ---
+    ## CC LANES
+    > &Height
+        ++ 5 _BR_ME_SET_CC_LANES_HEIGHT_{{0|50}} &Set all to {{0|50}} pixels
+    > &Visibility
+        40404 &Remove selected duplicate events
+        _FNG_ME_SHOW_USED_CC_LANES &Show used cc lanes
+        _FNG_ME_HIDE_UNUSED_CC_LANES &Hide unused cc lanes
+        ---
+        _BR_ME_HIDE_LAST_CLICKED_LANE &Hide active cc lane
+        _BR_ME_HIDE_ALL_NO_LAST_CLICKED &Hide inactive cc lanes
+        _S&M_HIDECCLANES_ME &Hide all cc lanes
+    ---
+    ## WINDOW
+    > &Items
+        40500 &Cycle to next item
+        40636 &Cycle to previous item
+        ---
+    > &Resize
+        40466 &Fit content
+        40468 &One loop iteration
+    40018 &Dock editor
+> &Contents
+    ## CONTENTS
+    40818 &Track list...
+    40819 &Media item lane...
+    > &Filter
+        40762 &Filter...
+        40504 &Toggle filter...
+        40914 &Invert filter
+        ---
+        ++ 16 {{40643}} &Channel {{01}}
+        ---
+        40217 &Show all channels
+        40216 &Show only next channel
+        40215 &Show only previous channel
+    ---
+    40799 &Display all MIDI media items on this track
+    40798 &Display only next MIDI item on this track
+    40797 &Display only previous MIDI item on this track
+    ---
+    ## MEMORY
+    > &Edit cursor position
+        ++ 8 _BR_ME_RESTORE_CURSOR_POS_SLOT_{{1}} &Load edit cursor position #{{01}}
+        ---
+        ++ 8 _BR_ME_SAVE_CURSOR_POS_SLOT_{{1}} &Save edit cursor position #{{01}}
+    > &Note selection
+        ++ 8 _BR_ME_RESTORE_NOTE_SEL_SLOT_{{1}} &Load note selection #{{01}}
+        ---
+        ++ 8 _BR_ME_SAVE_NOTE_SEL_SLOT_{{1}} &Save note selection #{{01}}
+    > &Event selection
+        ++ 8 _BR_ME_RESTORE_CC_LAST_CL_SLOT_{{1}} &Load event selection in active cc lane #{{01}}
+        ---
+        ++ 8 _BR_ME_RESTORE_CC_ALL_VIS_SLOT_{{1}} &Load event selection in all cc lanes #{{01}}
+        ---
+        ++ 8 _BR_ME_SAVE_CC_SLOT_{{1}} &Save event selection in active cc lane #{{01}}
+    > &CC lane visibility
+        ++ 8 _S&M_SETCCLANES_ME{{1}} &Load CC lane visibility #{{01}}
+        ---
+        ++ 8 _S&M_SAVECCLANES_ME{{1}} &Save CC lane visibility #{{01}}
+    ---
+    ## MEDIA ITEMS
+    40796 &MIDI media item list
+> &Actions
+    40420 &Action list...
+    2999 &Repeat most recent action
+    ---
+    2998 &Show recent actions
+---
+40466 &Size all content to fit
+40468 &Size one loop iteration to fit
+---
+40018 &Dock window
+2 &Close editor

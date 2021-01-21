@@ -102,6 +102,15 @@
     ---
     _SWS_SAVETIME1 &Save time selection #01
     _SWS_RESTTIME1 &Load time selection #01
+> Ruler layout
+    42323 Display project regions in lanes
+    42324 Display project markers in lanes
+    65535 Drag below the main toolbar to expand the ruler for more lanes
+    ---
+    42326 Display tempo changes
+    42327 Display time signature changes
+    42325 Display tempo and time signature changes in separate lanes
+---
 > &Edit cursor
     40151 &Go to edit cursor
     ---

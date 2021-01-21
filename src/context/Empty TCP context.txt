@@ -148,7 +148,7 @@
     _S&M_TGLARMPLUGENV &Arm all plugin envelopes for selected tracks
     ---
     40891 &Show separate lanes for all visible envelopes on selected tracks
-    ---
+---
 ## DISPLAY
 > &Labels
     _XENAKIOS_RENAMETRAXDLG &Rename selected tracks...
@@ -164,7 +164,7 @@
     _SWSAUTOCOLOR_OPEN &Auto Color/Icon...
 > &Color
     _SWS_TRACKORDCOL &Set to ordered custom colors
-    _SWS_TRACKGRAD &Set to color gradient
+    _SWS_TRACKGRAD &Set to SWS-color gradient
     ---
     40359 &Set to default color
     40357 &Set to custom color...
@@ -216,6 +216,7 @@
     > &Meter
         41744 &Show track meter
         41726 &Show full multichannel meter
+        42076 Pre-fader track metering
     > &Pan mode
         _SWS_AWPANSTEREOPAN &Stereo pan
         _SWS_AWPANBALANCENEW &Stereo balance
@@ -245,9 +246,11 @@
         ---
         40609 &Allow anticipative FX for selected tracks
         40610 &Prevent anticipative FX for selected tracks
+        ---
+        42075 Prevent spectral peaks/spectrogram
 > &Layout
     48400 &Default
-    ---
+---
 > &Grouping
     40772 &Grouping parameters for selected tracks...
     ---

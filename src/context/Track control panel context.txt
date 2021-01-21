@@ -1,4 +1,3 @@
-# &Track
 > &Insert
     40001 &Track
     41584 &Surround track
@@ -207,13 +206,6 @@
     _SWSTL_OPENFILT &Track list...
     40422 &Screensets...
     40906 &Filter track visibility...
-> &Peaks
-    42074 Peaks display settings...
-    ---
-    42073 Spectral peaks
-    42294 Spectrogram
-    42295 Spectrogram and peaks
-    42301 Normal (non-spectral/non-spectrogram) peaks
 ---
 ## TRACKS
 41314 &Lock selected tracks
