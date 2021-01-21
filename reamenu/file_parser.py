@@ -45,9 +45,8 @@ class FileParser(object):
         return self.menu_items if self.is_mixin else self.finalize()
 
     def finalize(self):
-        final_list = [f'[{self.name}]']
+        final_list = [f'[{self.name}]', f'title={self.title}']
         final_list += [f'item_{i}={v}' for i, v in enumerate(self.menu_items)]
-        final_list.append(f'title={self.title}')
         return final_list
 
     def parse_lines(self, lines):
