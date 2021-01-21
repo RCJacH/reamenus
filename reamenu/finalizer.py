@@ -20,7 +20,7 @@ class Finalizer(object):
             all_lines = []
             for each_file in self.all_files:
                 all_lines += each_file()
-                all_lines += ('\n',)
+                all_lines += ('',)
             release_file.write('\n'.join(all_lines))
 
     def get_all_files(self):
