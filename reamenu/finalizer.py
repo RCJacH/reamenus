@@ -7,7 +7,7 @@ class Finalizer(object):
     def __init__(self, folderpath, lang='en'):
         self.folder = pathlib.Path(folderpath)
         self.src_folder = self.folder.parent / 'src'
-        self.release_path = self.folder.parent / 'release' / 'reaper-menu.ini'
+        self.release_path = self.folder.parent / 'release' / 'ReaMenus.ReaperMenuSet'
         self.all_files = [
             x for x in self.get_all_files() if (
                 x.lang == lang and not x.is_mixin
