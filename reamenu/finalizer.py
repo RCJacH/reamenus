@@ -13,6 +13,7 @@ class Finalizer(object):
                 x.lang == lang and not x.is_mixin
             )
         ]
+        self.all_files.sort(key=lambda x: x.name.lower())
 
     def __call__(self):
         with open(self.release_path, 'w', encoding='utf-8') as release_file:
