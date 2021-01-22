@@ -49,22 +49,7 @@
 > &Default channel
     ++ 16 {{40482}} &{{1}}
 ---
-## PLAYBACK
-> &Transport
-    1139 &Toggle repeating/looping
-    40039 &Sync to main transport
-    ---
-    40750 &Automatically scroll view during playback
-> &Timebase
-    40470 &Source beats
-    40459 &Project beats
-    40460 &Project time
-    ---
-    40640 &Sync to arrange view
-> &Ruler format
-    40760 &Measures.beats
-    40736 &Measures.beats.100ths
-    40737 &Measures.beats.MIDI_ticks
+@import PLAYBACK
 ---
 40642 &Menus/Toolbars...
 40749 &Mouse modifiers...
