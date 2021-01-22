@@ -10,7 +10,7 @@
                 "kind": "build",
                 "isDefault": true,
             },
-            "command": "python -m reamenu",
+            "command": "python -m reamenus",
             "problemMatcher": []
         }
     ]
