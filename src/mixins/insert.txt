@@ -1,0 +1,180 @@
+# Time&line
+> &Insert
+    40142 &Empty item
+    40214 &MIDI item...
+    41049 &Sub-project (PiP)...
+    ---
+    50124 &Media files...
+    _XENAKIOS_INSERTMEDIAFROMCLIPBOARD &Media file from clipboard
+    ---
+    41932 &Video processor
+    40208 &Timecode generator
+    40013 &Click source
+---
+## MARKERS
+> &Markers
+    40171 &Insert marker...
+    _XENAKIOS_CRTMARKERSFROMITEMS1 &Insert markers from selected items named by take
+    ---
+    40173 &Go to next marker
+    40172 &Go to previous marker
+    ---
+    _SWSML_TOCLIPTIMESEL &Copy markers in time selection
+    40420 &Delete all markers in time selection
+    ---
+    40898 &Renumber all markers
+    _SWSMARKERLIST13 &Convert markers to regions
+    _SWS_BRCONVERTMARKERSTOTEMPO &Covert markers to tempo markers
+    _SWSMARKERLIST9 &Delete all markers
+    ---
+    _SWSMARKERLIST1 &Marker List...
+> &Regions
+    40306 &Insert region from time selection...
+    40393 &Insert region from selected items...
+    40348 &Insert region from selected items
+    41664 &Insert region for each selected item
+    ---
+    _SWS_SELNEXTREG &Select next region
+    _SWS_SELPREVREG &Select previous region
+    ---
+    _SWSMARKERLIST8 &Renumber all regions
+    _SWSMARKERLIST14 &Convert regions to markers
+    _SWSMARKERLIST10 &Delete all regions
+    ---
+    _SWSMARKERLIST1 &Region list...
+    _S&M_SHOW_RGN_PLAYLIST &Region playlist...
+> &Tempo markers
+    40256 &Insert Tempo/time signature change marker...
+    ---
+    41821 &Go to next time signature change
+    41820 &Go to previous time signature change
+    ---
+    40338 &Convert time selection to measure (tempo)
+    40801 &Convert time selection to measure (tempo/meter)...
+    ---
+    41215 &Increase all by 1 BPM
+    41217 &Increase all by 0.1 BPM
+    41219 &Increase all by 0.01 BPM
+    ---
+    41216 &Decrease all by 1 BPM
+    41218 &Decrease all by 0.1 BPM
+    41220 &Decrease all by 0.01 BPM
+    ---
+    40925 &Quantize all to MIDI resolution
+    ---
+    41597 &Convert time selection to project tempo (tempo)
+    40002 &Convert time selection to project tempo (tempo/align items)
+    40843 &Convert time selection to project tempo (tempo/meter)...
+    ---
+    _SWS_BRADJUSTSELTEMPO &Select and adjust tempo markers...
+    _BR_RANDOMIZE_TEMPO &Randomize selected tempo markers...
+    _BR_TEMPO_SHAPE_OPTIONS &SWS/BR: Set tempo marker shape (options)...
+---
+## EDITING
+41226 &Nudge...
+> &Loop points
+    40632 &Go to start of loop
+    40633 &Go to end of loop
+    ---
+    40622 &Move loop points to time selection
+    41039 &Set loop points to selected items
+    40634 &Remove loop points
+    ---
+    40722 &Double loop length
+    40721 &Halve loop length
+    ---
+    _SWS_SAVELOOP1 &Save loop selection #01
+    _SWS_RESTLOOP1 &Load loop selection #01
+> &Time selection
+    40630 &Go to start of time selection
+    40631 &Go to end of time selection
+    ---
+    40290 &Set time selection to selected items
+    40623 &Move time selection to loop points
+    40635 &Remove time selection
+    ---
+    40200 &Insert space at time selection
+    40201 &Remove contents of time selection
+    40049 &Crop project to time selection
+    ---
+    40037 &Shift left (by time selection length)
+    40038 &Shift right (by time selection length)
+    ---
+    _SWS_SAVETIME1 &Save time selection #01
+    _SWS_RESTTIME1 &Load time selection #01
+> &Edit cursor
+    40151 &Go to edit cursor
+    ---
+    40434 &Move edit cursor to play cursor
+    40513 &Move edit cursor to mouse cursor
+    ---
+    _XENAKIOS_DOSTORECURPOS &Store edit cursor position
+    _XENAKIOS_DOLoadCURPOS &Load edit cursor position
+> &Clipboard
+    40698 &Copy items
+    40060 &Copy selected area of selected items
+    40014 &Copy loop of selected area of selected items
+    ---
+    40699 &Cut items
+    40307 &Cut selected area of selected items
+    ---
+    40058 &Paste items
+    40603 &Paste as takes in selected items
+    _XENAKIOS_REPEATPASTE &Repeat paste...
+    ---
+    40006 &Remove items
+    40312 &Remove selected area of selected items
+---
+## TIMELINE
+40069 &Jump to...
+_SWS_ZOOM &Zoom tool
+> &Zoom
+    40113 &Toggle zoom to tracks maximum height
+    40110 &Toggle zoom to tracks minimum height
+    ---
+    40295 &Zoom to project
+    ---
+    _SWS_TOGZOOMTTMIN &Toggle zoom to selected area of selected tracks
+    _SWS_TOGZOOMIMIN &Toggle zoom to selected area of selected items
+    ---
+    _SWS_ZOOMPREFS &Zoom tool preferences...
+> &Ruler
+    40367 &Measures.beats
+    41916 &Measures.beats (minimal)
+    40366 &Measures.beats + minutes : seconds
+    41918 &Measures.beats (minimal) + minutes : seconds
+    40370 &Hours : minutes : seconds : frames
+    40365 &Minutes : seconds
+    40368 &Seconds
+    40369 &Samples
+    41973 &Absolute frames
+    ---
+    41885 &Toggle framerate grid
+    _SWS_RECREDRULER &Red ruler while recording
+    ---
+    > Layout
+        42323 Display project regions in lanes
+        42324 Display project markers in lanes
+        65535 Drag below the main toolbar to expand the ruler for more lanes
+        ---
+        42326 Display tempo changes
+        42327 Display time signature changes
+        42325 Display tempo and time signature changes in separate lanes
+---
+> &Interface
+    _SWS_AWCLRTIMESELCLKTOG &Link time selection and edit cursor
+    40621 &Link time selection and loop points
+    _SWS_AWCLRLOOPCLKTOG &Clear loop points on ruler click
+    ---
+    _SWSMA_TOGGLE &Toggle marker actions
+---
+> &Locking
+    1135 &Toggle locking
+    40277 &Locking settings...
+    ---
+    40591 &Lock markers
+    40588 &Lock regions
+    40594 &Lock time signature markers
+    ---
+    40573 &Lock time selection
+    40629 &Lock loop points
