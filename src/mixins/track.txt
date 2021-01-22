@@ -1,0 +1,53 @@
+## TRACKS
+41314 &Lock selected tracks
+40641 &Free item positioning
+> &Properties
+    40645 &Auto-reposition items
+    _XENAKIOS_SHOW_COMMANDPARAMS &Command parameters...
+    > &Meter
+        41744 &Show track meter
+        41726 &Show full multichannel meter
+        42076 Pre-fader track metering
+    > &Pan mode
+        _SWS_AWPANSTEREOPAN &Stereo pan
+        _SWS_AWPANBALANCENEW &Stereo balance
+        _SWS_AWPANDUALPAN &Dual pan
+        _SWS_AWPANBALANCEOLD &3.x balance
+    > &Timebase
+        40486 &Default (project)
+        40488 &Beats (position, length, rate)
+        40489 &Beats (position only)
+        40487 &Time
+    > &Record path
+        41321 &Primary
+        41322 &Secondary
+        41323 &Both
+    > &MIDI controls
+        41555 &Link track controls to MIDI controls on all channels
+        ---
+        ++ 16 {{41539}} &Link track controls to MIDI controls on channel {{01}}
+        ---
+        41538 &Do not link track controls to MIDI controls
+        ---
+        41557 &Send track volume as 2-byte MIDI message
+        41558 &Send track pan as 2-byte MIDI message
+    > &Performance
+        40607 &Allow media buffering for selected tracks
+        40608 &Prevent media buffering for selected tracks
+        ---
+        40609 &Allow anticipative FX for selected tracks
+        40610 &Prevent anticipative FX for selected tracks
+        ---
+        42075 Prevent spectral peaks/spectrogram
+> &Layout
+    48400 &Default
+---
+> &Grouping
+    40772 &Grouping parameters for selected tracks...
+    ---
+    _S&M_COPY_TR_GRP &Copy selected tracks grouping
+    _S&M_CUT_TR_GRP &Cut selected tracks grouping
+    _S&M_PASTE_TR_GRP &Paste grouping to selected tracks
+    ---
+    40771 &Toggle track grouping
+    40768 &Grouping Matrix...

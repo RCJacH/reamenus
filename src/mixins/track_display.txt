@@ -1,0 +1,57 @@
+## DISPLAY
+> &Labels
+    _XENAKIOS_RENAMETRAXDLG &Rename selected tracks...
+    _SWS_NAMETKLIKEITEM &Rename selected tracks by first selected item
+    ---
+    _XENAKIOS_TRAXDEFAULTLABEL &Insert default track label
+    _SWSCONSOLEPREFIX &Insert prefix to track labels
+    _SWSCONSOLESUFFIX &Insert suffix to track labels
+> &Icon
+    40899 &Set track icon...
+    40900 &Delete track icon
+    ---
+    _SWSAUTOCOLOR_OPEN &Auto Color/Icon...
+> &Color
+    _SWS_TRACKORDCOL &Set to ordered custom colors
+    _SWS_TRACKGRAD &Set to SWS-color gradient
+    ---
+    40359 &Set to default color
+    40357 &Set to custom color...
+    ---
+    ++ 16 _SWS_TRACKCUSTCOL{{1}} &Set to custom color {{1}}
+    ---
+    _SWS_WHITETRACK &Set to white
+    _SWS_BLACKTRACK &Set to black
+    ---
+    40360 &Set to one random color
+    40358 &Set to random colors
+    ---
+    _SWS_COLCHILDREN &Set children to same color
+    ---
+    _SWSAUTOCOLOR_OPEN &Auto Color/Icon...
+> &Height
+    _SWS_MINTRACKS &Minimize selected tracks
+    40723 &Expand selected tracks (minimize others)
+    ---
+    40110 &Minimize all tracks
+    40113 &Maximize all tracks
+    ---
+    _XENAKIOS_STORETRACKHEIGHTS &Save selected tracks heights
+    _XENAKIOS_LoadTRACKHEIGHTS &Load selected tracks heights
+> &Visibility
+    41050 &Master track in track view
+    41209 &Master track in mixer
+    ---
+    _SWSTL_HIDE &Hide selected tracks
+    _SWSTL_HIDETCP &Hide selected tracks in track view
+    _SWSTL_HIDEMCP &Hide selected tracks in mixer
+    ---
+    _SWSTL_HIDEUNSEL &Hide unselected tracks
+    ---
+    _SWSTL_SHOWALL &Show all tracks
+    _SWSTL_SHOWALLMCP &Show all tracks in track view
+    _SWSTL_SHOWALLTCP &Show all tracks in mixer
+    ---
+    _SWSTL_OPENFILT &Track list...
+    40422 &Screensets...
+    40906 &Filter track visibility...
