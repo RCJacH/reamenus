@@ -45,11 +45,7 @@
 ---
 ## CC LANES
 > &Height
-    _BR_ME_SET_CC_LANES_HEIGHT_0 &Set all to 0 pixels
-    _BR_ME_SET_CC_LANES_HEIGHT_50 &Set all to 50 pixels
-    _BR_ME_SET_CC_LANES_HEIGHT_100 &Set all to 100 pixels
-    _BR_ME_SET_CC_LANES_HEIGHT_150 &Set all to 150 pixels
-    _BR_ME_SET_CC_LANES_HEIGHT_200 &Set all to 200 pixels
+    ++ 5 _BR_ME_SET_CC_LANES_HEIGHT_{{0|50}} &Set all to {{0|50}} pixels
 > &Visibility
     40404 &Remove selected duplicate events
     _FNG_ME_SHOW_USED_CC_LANES &Show used cc lanes
