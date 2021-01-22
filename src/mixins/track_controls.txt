@@ -1,0 +1,72 @@
+## CONTROLS
+> &Pan
+    _XENAKIOS_SYMMETRICAL_CHANPANSRTOL &Pan selected tracks right to left
+    _XENAKIOS_SYMMETRICAL_CHANPANSLTOR &Pan selected tracks left to right
+    ---
+    _XENAKIOS_PANTRACKSRANDOM &Pan selected tracks randomly
+> &Mute
+    _SWS_TOGMUTECHILDRN &Mute children of selected tracks
+    _SWS_TOGMUTERECVS &Mute receives for selected tracks
+    ---
+    _SWS_TOGITEMMUTE &Mute items on selected tracks
+    ---
+    _SWS_SAVEMUTES &Save selected track mutes (inc. receives)
+    _SWS_RESTRMUTES &Load selected track mutes (inc. receives)
+> &FX
+    _S&M_COPYFXCHAIN5 &Copy FX chain
+    _S&M_COPYFXCHAIN6 &Cut FX chain
+    _S&M_COPYFXCHAIN10 &Paste FX chain
+    _S&M_COPYFXCHAIN7 &Replace FX chain
+    _S&M_CLRFXCHAIN3 &Delete FX chain
+    ---
+    _S&M_COPY_INFXCHAIN &Copy input FX chain
+    _S&M_CUT_INFXCHAIN &Cut input FX chain
+    _S&M_PASTE_INFXCHAIN &Paste input FX chain
+    _S&M_PASTE_REPLACE_INFXCHAIN &Replace input FX chain
+    _S&M_CLR_INFXCHAIN &Delete input FX chain
+    ---
+    41757 &Insert/show track EQ
+    40907 &Insert/show MIDI controls
+    ---
+    _S&M_FXBYPALL &Bypass all FX on selected tracks
+    _S&M_FXOFFALL &Offline all FX on selected tracks
+    ---
+    _S&M_WNCLS4 &Close all FX chain windows
+    _S&M_WNCLS3 &Close all floating FX windows
+    ---
+    40271 &FX Browser...
+    _S&M_SHOWFXCHAINSLOTS &FX chains...
+> &FX parameters
+    41142 &Track envelope for last touched FX parameter
+    41141 &Track control for last touched FX parameter
+    ---
+    41145 &Set alias for last touched FX parameter
+    ---
+    41144 &MIDI learn for last touched FX parameter...
+    41143 &Parameter modulation for last touched FX parameter...
+> &Routing
+    _S&M_COPYSNDRCV2 &Copy selected tracks routings
+    _S&M_CUTSNDRCV2 &Cut selected tracks routings
+    _S&M_PASTSNDRCV2 &Paste routings to selected tracks
+    _S&M_SENDS7 &Delete selected tracks routings
+    ---
+    _S&M_WNCLS1 &Close all routing windows
+    ---
+    _SWS_AWCSCINP &Cascade selected track inputs
+    40251 &Routing Matrix...
+> &Envelopes
+    41975 &Track envelopes...
+    ---
+    40406 &Show volume envelope for selected tracks
+    40407 &Show pan envelope for selected tracks
+    ---
+    41151 &Show all envelopes for selected tracks
+    40890 &Show all active envelopes for selected tracks
+    ---
+    41152 &Show all envelopes for all tracks
+    40926 &Show all active envelopes for all tracks
+    ---
+    _S&M_TGLARMALLENVS &Arm all active envelopes for selected tracks
+    _S&M_TGLARMPLUGENV &Arm all plugin envelopes for selected tracks
+    ---
+    40891 &Show separate lanes for all visible envelopes on selected tracks
