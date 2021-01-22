@@ -58,23 +58,7 @@
     41644 &Unfreeze
     ---
     41654 &Show track freeze details
-> &Render
-    40789 &Render to mono stem tracks
-    40537 &Render to mono stem tracks (post-fader)
-    41721 &Render selected area to mono stem tracks
-    41718 &Render selected area to mono stem tracks (post-fader)
-    ---
-    40788 &Render to stereo stem tracks
-    40405 &Render to stereo stem tracks (post-fader)
-    41719 &Render selected area to stereo stem tracks
-    41716 &Render selected area to stereo stem tracks (post-fader)
-    ---
-    40893 &Render to multichannel stem tracks
-    40892 &Render to multichannel stem tracks (post-fader)
-    41720 &Render selected area to multichannel stem tracks
-    41717 &Render selected area to multichannel stem tracks (post-fader)
-    ---
-    _XENAKIOS_RENDERRECEIVESASSTEMS &Render receives as stems tracks
+@import track_render
 ---
 ## CONTROLS
 > &Pan
