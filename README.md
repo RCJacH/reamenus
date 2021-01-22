@@ -109,7 +109,7 @@ normal item
 To avoid writing the same contents in multiple files, and to simply maintenance workload, repeated lines may be extracted into an unique file, leaving only a link to the file. Upon building, the content of the target file will be copied to the location of the syntax.
 
 Inspired by sass, the syntax for importation is `@import filename`.
-The search location for the filename is `/src/mixins`.
+The search location for the filename is `/src/.../mixins`.
 
 ### Incrementation
 
@@ -131,4 +131,6 @@ This will increase the initial number by the indicated step size, or decrease if
 
 ### Localization
 
-**To be implemented.**
+We can support multiple languages by categorizing contents in language folders.
+The original English ReaMenus should reside in `src/en/`, which builds into `ReaMenus.en.ReaperMenuset`.
+By the same logic, French localization should be placed into `src/fr/`, or whatever other language code string that is used.
