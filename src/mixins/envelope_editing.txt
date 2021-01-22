@@ -1,0 +1,39 @@
+> &Move
+    _FNG_ENVUP &Move selected points up
+    _FNG_ENVDOWN &Move selected points down
+    ---
+    41178 &Move selected points left by grid
+    _FNG_ENVLEFT_16 &Move selected points left by 16th note
+    _FNG_ENVLEFT_32 &Move selected points left by 32nd note
+    ---
+    41179 &Move selected points right by grid
+    _FNG_ENVRIGHT_16 &Move selected points right by 16th note
+    _FNG_ENVRIGHT_32 &Move selected points right by 32nd note
+> &Scale
+    _FNG_ENV_EXP_MID &Expand amplitude of selected points
+    _FNG_ENV_COMPR_MID &Compress amplitude of selected points
+    ---
+    _FNG_ENV_TIME_STRETCH &Expand duration of selected points
+    _FNG_ENV_TIME_COMP &Compress duration of selected points
+> &Skew
+    _FNG_ENV_LINEARADD_REV &Skew selected points up on left
+    _FNG_ENV_LINEARADD &Skew selected points up on right
+    ---
+    _FNG_ENV_LINEARSUB_REV &Skew selected points down on left
+    _FNG_ENV_LINEARSUB &Skew selected points down on right
+> &Transform
+    40415 &Reset selected points
+    40887 &Reduce number of points...
+    ---
+    _PADRE_ENVLFO &LFO generator...
+    _PADRE_ENVPROC &Envelope processor...
+---
+@import envelope_curve
+---
+@import envelope
+---
+> &Locking
+    1135 &Toggle locking
+    40277 &Locking settings...
+    ---
+    40585 &Lock envelopes

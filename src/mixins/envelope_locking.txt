@@ -1,5 +1,0 @@
-> &Locking
-    1135 &Toggle locking
-    40277 &Locking settings...
-    ---
-    40585 &Lock envelopes
