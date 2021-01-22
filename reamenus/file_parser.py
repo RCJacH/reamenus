@@ -7,21 +7,15 @@ spaces_re = re.compile(r'(^ +)')
 increment_re = re.compile(r'{{([\d|-]+)}}')
 
 
-MIXINS_PATH = pathlib.Path(__file__).parent.parent / 'src' / 'mixins'
+SRC_PATH = pathlib.Path(__file__).parent.parent / 'src'
 
 
 class FileParser(object):
-    def __init__(self, filepath=''):
+    def __init__(self, filepath='', lang='en'):
         self.path = pathlib.Path(filepath)
-        suffixes = self.path.suffixes
         self.name = self.path.stem.split('.')[0]
-        self.title = self.name
-        if len(suffixes) > 1:
-            self.langstr = suffixes[0]
-            self.lang = self.langstr[1:]
-        else:
-            self.langstr = ''
-            self.lang = 'en'
+        self.title = None
+        self.lang = lang
         self.is_mixin = 'mixins' in self.path.parts
 
         self.mapper = {
@@ -45,6 +39,8 @@ class FileParser(object):
         return self.menu_items if self.is_mixin else self.finalize()
 
     def finalize(self):
+        if not self.title:
+            self.title = self.name
         final_list = [f'[{self.name}]', f'title={self.title}']
         final_list += [f'item_{i}={v}' for i, v in enumerate(self.menu_items)]
         return final_list
@@ -98,8 +94,10 @@ class FileParser(object):
         self.name = line
 
     def mixin(self, line):
-        mixin_file = MIXINS_PATH / f'{line}{self.langstr}.txt'
-        parser = FileParser(mixin_file)
+        mixin_file = (
+            SRC_PATH / self.lang / 'mixins' / f'{line}.txt'
+        )
+        parser = FileParser(mixin_file, self.lang)
         return parser()
 
     def incremental(self, line):

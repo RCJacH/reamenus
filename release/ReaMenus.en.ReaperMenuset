@@ -1373,7 +1373,7 @@ item_64=-1
 item_65=40004 &Quit
 
 [Main insert]
-title=Main insert
+title=Time&line
 item_0=-2 &Insert
 item_1=40142 &Empty item
 item_2=40214 &MIDI item...
@@ -5345,7 +5345,7 @@ item_37=40083 &Dock mixer in docker
 item_38=40079 &Close
 
 [Ruler/arrange context]
-title=Ruler_arrange context
+title=Ruler/arrange context
 item_0=-2 &Insert
 item_1=40142 &Empty item
 item_2=40214 &MIDI item...

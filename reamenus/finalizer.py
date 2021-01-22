@@ -6,22 +6,34 @@ from reamenus.file_parser import FileParser
 class Finalizer(object):
     def __init__(self, folderpath, lang='en'):
         self.folder = pathlib.Path(folderpath)
-        self.src_folder = self.folder.parent / 'src'
-        self.release_path = self.folder.parent / 'release' / 'ReaMenus.ReaperMenuSet'
-        self.all_files = [
-            x for x in self.get_all_files() if (
-                x.lang == lang and not x.is_mixin
-            )
-        ]
-        self.all_files.sort(key=lambda x: x.name.lower())
+        parent = self.folder.parent
+        self.src_folder = parent / 'src'
+        self.release_folder = parent / 'release'
+        self.all_lang = (
+            x for x in self.src_folder.iterdir() if x.is_dir()
+        )
 
     def __call__(self):
-        with open(self.release_path, 'w', encoding='utf-8') as release_file:
+        for each_lang in self.all_lang:
+            self.release_lang(each_lang)
+
+    def release_lang(self, lang):
+        release_path = (
+            self.release_folder / f'ReaMenus.{lang.name}.ReaperMenuset'
+        )
+        all_files = sorted(
+            self.get_all_files(lang), key=lambda x: x.name.lower()
+        )
+        with open(release_path, 'w', encoding='utf-8') as release_file:
             all_lines = []
-            for each_file in self.all_files:
+            for each_file in all_files:
                 all_lines += each_file()
                 all_lines += ('',)
             release_file.write('\n'.join(all_lines))
 
-    def get_all_files(self):
-        return (FileParser(f) for f in self.src_folder.glob(r'./**/*.txt'))
+    def get_all_files(self, lang):
+        lang_folder = self.src_folder / lang
+        return (
+            FileParser(f) for f in lang_folder.rglob(r'*.txt')
+            if 'mixins' not in f.parts
+        )
