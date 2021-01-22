@@ -1,5 +1,2 @@
 # &Actions
-40420 &Action list...
-2999 &Repeat most recent action
----
-2998 &Show recent actions
+@import MIDI_actions

@@ -1,16 +1,1 @@
-## MIDI
-1005 &Save to disk...
-1013 &Load last save
-40038 &Export MIDI...
----
-40455 &Rename MIDI take...
-40478 &Double length of take
----
-40678 &Reset all MIDI devices
-40435 &Send "all notes off" to all outputs
-40666 &Raw MIDI data...
----
-40679 &Toggle locking to item's starting tempo
----
-40408 &Auto-save file on close
-2 &Close editor
+@import MIDI_file

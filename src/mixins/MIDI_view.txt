@@ -1,0 +1,64 @@
+## DISPLAY
+> &Timeline
+    40951 &Show markers
+    40952 &Show regions
+    40953 &Show tempo markers
+> &View mode
+    40042 &Piano roll
+    40043 &Named notes
+    40056 &Event list
+    40954 &Musical notation
+> &Rows
+    40452 &Show all (piano roll)
+    40453 &Hide unused (named notes)
+    40454 &Hide unused and unnamed (named notes)
+> &Shape
+    40449 &Rectangles
+    40448 &Triangles (drum mode)
+    40450 &Diamonds (drum mode)
+---
+## NOTES
+> &Velocity
+    40040 &Velocity handles on notes
+    40632 &Velocity numbers on notes
+> &Names
+    40045 &Note names on notes
+    ---
+    40411 &Rename current note
+    ---
+    40410 &Save note names to file...
+    40409 &Load note names from file...
+    ---
+    40412 &Clear all note names
+> &Color
+    40738 &Color by velocity
+    40739 &Color by channel
+    40740 &Color by pitch
+    40741 &Color by source
+    40768 &Color by track color
+    40769 &Color by item color
+    ---
+    40498 &Load color map...
+    40499 &Reset color map
+---
+## CC LANES
+> &Height
+    ++ 5 _BR_ME_SET_CC_LANES_HEIGHT_{{0|50}} &Set all to {{0|50}} pixels
+> &Visibility
+    40404 &Remove selected duplicate events
+    _FNG_ME_SHOW_USED_CC_LANES &Show used cc lanes
+    _FNG_ME_HIDE_UNUSED_CC_LANES &Hide unused cc lanes
+    ---
+    _BR_ME_HIDE_LAST_CLICKED_LANE &Hide active cc lane
+    _BR_ME_HIDE_ALL_NO_LAST_CLICKED &Hide inactive cc lanes
+    _S&M_HIDECCLANES_ME &Hide all cc lanes
+---
+## WINDOW
+> &Items
+    40500 &Cycle to next item
+    40636 &Cycle to previous item
+    ---
+> &Resize
+    40466 &Fit content
+    40468 &One loop iteration
+40018 &Dock editor
