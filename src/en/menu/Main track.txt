@@ -6,12 +6,6 @@
 @import track_controls
 ---
 @import track_display
-> &Peaks
-    42074 Peaks display settings...
-    ---
-    42073 Spectral peaks
-    42294 Spectrogram
-    42295 Spectrogram and peaks
-    42301 Normal (non-spectral/non-spectrogram) peaks
+@import track_peaks
 ---
 @import track_settings

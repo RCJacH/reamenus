@@ -1,0 +1,7 @@
+> &Peaks
+    42074 Peaks display settings...
+    ---
+    42301 &Show normal (non-spectral/non-spectrogram) peaks
+    42073 &Show spectral peaks
+    42294 &Show spectrogram
+    42295 &Show spectrogram and peaks

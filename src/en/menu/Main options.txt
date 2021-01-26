@@ -109,13 +109,7 @@
     40691 &Show media cues
     ---
     41344 &Show tooltips
-> &Peaks Display
-    42301 Show normal (non-spectral/non-spectrogram) peaks
-    42073 Show spectral peaks
-    42294 Show spectrogram
-    42295 Show spectrogram and peaks
-    ---
-    42074 Peaks Display Settings...
+@import track_peaks
 > &Lanes
     40507 &Show overlapping items in lanes
     ---
