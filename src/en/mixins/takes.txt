@@ -74,6 +74,11 @@
     ---
     40855 &Mute selected area of active take of multitake item
     40856 &Solo selected area of active take of multitake item
+> &Markers
+    42388 &Add/edit take marker at cursor
+    42390 &Quick add take marker at cursor
+    42386 &Delete take marker at cursor
+    42387 &Delete all take markers
 > &Explode/Implode
     40224 &Explode takes of items across tracks
     40642 &Explode takes of items in place
