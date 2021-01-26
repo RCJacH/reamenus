@@ -4,6 +4,17 @@
 40552 &Delete FX
 40562 &Rename FX
 ---
+41224 &Copy FX
+41225 &Copy FX (include automation)
+41222 &Paste FX
+41833 &Paste Replace FX
+41915 &Replace FX...
+41917 &Quick replace FX
+---
+40237 Show FX parameters in panel
+42335 Show embedded UI in TCP
+42372 Show embedded UI in MCP
+---
 40556 &Add FX...
 41068 &Quick FX
 ---
