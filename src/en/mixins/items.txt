@@ -319,6 +319,11 @@
     41847 &Snap stretch markers in time selection to grid
     ---
     41857 &Tonally-optimize item's stretch markers
+> &Spectral
+    42073 &Show spectrogram
+    42302 &Add spectral edit to item
+    ---
+    ++ 5 {{42077}} &Load spectral peaks preset {{1}}
 > &MIDI
     _FNG_MIDI_UP_OCT &Transpose selected MIDI items up 1 octave
     _FNG_MIDI_UP_SEMI &Transpose selected MIDI items up 1 semitone
