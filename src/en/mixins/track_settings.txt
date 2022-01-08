@@ -4,10 +4,6 @@
 > &Properties
     40645 &Auto-reposition items
     _XENAKIOS_SHOW_COMMANDPARAMS &Command parameters...
-    > &Meter
-        41744 &Show track meter
-        41726 &Show full multichannel meter
-        42076 Pre-fader track metering
     > &Pan mode
         _SWS_AWPANSTEREOPAN &Stereo pan
         _SWS_AWPANBALANCENEW &Stereo balance

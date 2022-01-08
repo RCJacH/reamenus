@@ -38,6 +38,18 @@
     ---
     _XENAKIOS_STORETRACKHEIGHTS &Save selected tracks heights
     _XENAKIOS_LoadTRACKHEIGHTS &Load selected tracks heights
+> &Meter
+    41744 &Show track meter
+    ---
+    42442 &Stereo peak
+    41726 &Multichannel peaks
+    42446 &Stereo RMS
+    42443 &Combined RMS
+    42444 &LUFS-M
+    42445 &LUFS-S (readout=max)
+    42451 &LUFS-S (readout=current)
+    ---
+    42076 &Pre-fader track metering
 > &Visibility
     41050 &Master track in track view
     41209 &Master track in mixer
