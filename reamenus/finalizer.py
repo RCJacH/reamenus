@@ -19,7 +19,7 @@ class Finalizer(object):
 
     def release_lang(self, lang):
         release_path = (
-            self.release_folder / f'ReaMenus.{lang.name}.ReaperMenuset'
+            self.release_folder / f'ReaMenus.{lang.name}.ReaperMenuSet'
         )
         all_files = sorted(
             self.get_all_files(lang), key=lambda x: x.name.lower()
