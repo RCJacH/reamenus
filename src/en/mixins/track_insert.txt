@@ -1,5 +1,6 @@
 > &Insert
     40001 &Track
+    42666 Visual s&pacer
     41584 &Surround track
     41067 &Multiple tracks...
     40701 &Virtual instrument tracks...
